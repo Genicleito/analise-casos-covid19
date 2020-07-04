@@ -6,6 +6,7 @@
 *.bkp
 *.part
 *.html
+*/last_boletim/*
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
