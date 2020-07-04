@@ -21,9 +21,7 @@ print("Today:", today)
 
 
 base = refined_path + sorted(os.listdir(refined_path), reverse=True)[0] + "/01_extract/01_boletim.txt"
-base_extracted_csv = base.replace(".txt", "_extracted_quadro_casos.csv")
-print(base)
-print(base_extracted_csv)
+base_extracted_csv = base.replace(".txt", "_extracted_tab_acum_cases.csv")
 
 
 # In[4]:
@@ -116,7 +114,7 @@ for i in range(1, len(new_file)):
 f.close()
 
 df = pd.read_csv(base_extracted_csv)
-df_full = pd.read_csv('boletim_sesab_full.csv')
+df_full = pd.read_csv('cases-covid19-bahia.csv')
 df_full = df_full.drop(labels=[x for x in df_full.columns if "_x" in x or "_y" in x], axis=1)
 print("Shape DataFrame:", df.shape, " - Shape DataFrame full:", df_full.shape)
 
@@ -154,17 +152,74 @@ for i in range(len(tuples)):
     tmp = pd.read_csv(tuples[i][0]).drop('id', axis=1)
     print(df_full.shape)
     tmp = tmp[~ tmp['municipio'].str.contains('(^|[^A-z]+)TOTAL($|[^A-z]+)')]
-    # df_full = df_full.append(tmp, on=['date', 'municipio'], how='left')
     df = df.merge(tmp, on=['date', 'municipio'], how='left')
+
+df = df.where(df.notna(), 0)
 
 df.to_csv(transform_path + "boletim_sesab_" + date_base + ".csv", index=False)
 print("Colunas salvas boletim full:", list(df_full.columns))
 print("Colunas salvas boletim {}: {}".format(date_base, list(df_full.columns)))
 
-df_full = df_full.append(df)
+df_full = df_full.append(df).drop(['novos_casos', 'novos_obitos', 'taxa_letalidade', 'total_recuperados'], axis=1)
 df_full = df_full[~ df_full['municipio'].str.contains('(^|[^A-z]+)TOTAL($|[^A-z]+)')]
-print("df_full com informações do último boletim:", df_full.shape)
 
-os.system("cp -p boletim_sesab_full.csv boletim_sesab_full.csv.bkp")
-df_full.to_csv('boletim_sesab_full.csv', index=False)
+df_nomes_cidades = pd.read_csv("cidades_bahia_covid19.csv")
+
+df_full['municipio_original'] = df_full['municipio']
+for i in range(df_nomes_cidades.shape[0]):
+    exp = df_nomes_cidades['regex'].iloc[i]
+    name = df_nomes_cidades['municipio'].iloc[i]
+    df_full['municipio'] = df_full['municipio'].str.replace(exp, name)
+
+def create_new_cases(df):
+    dfs = pd.DataFrame(columns=list(df.columns) + ['novos_casos'])
+    for city in df['municipio'].unique():
+        tmp = df[df['municipio'] == city].sort_values(by=['date'])
+        new_cases = [tmp['total_confirmados'].iloc[0]]
+        for i in range(1, tmp.shape[0]):
+            new_cases.append(tmp['total_confirmados'].iloc[i] - tmp['total_confirmados'].iloc[i - 1])
+        tmp['novos_casos'] = new_cases
+        dfs = dfs.append(tmp)
+    return dfs
+
+df_full = create_new_cases(df_full)
+
+def create_new_deaths(df):
+    dfs = pd.DataFrame(columns=list(df.columns) + ['novos_obitos'])
+    for city in df['municipio'].unique():
+        tmp = df[df['municipio'] == city].sort_values(by=['date'])
+        new_cases = [tmp['total_obitos_munres'].iloc[0]]
+        for i in range(1, tmp.shape[0]):
+            new_cases.append(tmp['total_obitos_munres'].iloc[i] - tmp['total_obitos_munres'].iloc[i - 1])
+        tmp['novos_obitos'] = new_cases
+        dfs = dfs.append(tmp)
+    return dfs
+
+df_full = create_new_deaths(df_full)
+
+def create_mortality_rate(df):
+    df['taxa_letalidade'] = (df['total_obitos_munres'] / df['total_confirmados'].where(df['total_confirmados'] != 0, 1) * 100).apply(lambda x: round(x, 2))
+    df['taxa_letalidade'].where(df['taxa_letalidade'].notna(), 0)
+    return df
+
+df_full = create_mortality_rate(df_full)
+
+def create_recovered(df):
+    df['total_recuperados'] = df['total_confirmados'] - df['total_ativos'] - df['total_obitos_munres']
+    return df
+
+df_full = create_recovered(df_full)
+
+d_cols = ['date', 'municipio', 'municipio_original', 'porcentagem', 'coef_incidencia_100k_hab', 'taxa_letalidade']
+for col in df_full.columns:
+    if col not in d_cols:
+        df_full[col] = df_full[col].astype(int)
+
+
+print("Base de dados completa com informações do último boletim:", df_full.shape)
+
+os.system("cp -p cases-covid19-bahia.csv cases-covid19-bahia.csv.bkp")
+df_full.to_csv('cases-covid19-bahia.csv', index=False)
+
+os.system("rm -rf " + base.replace(".txt", "_tabs_ativos_obitosmunres_obitosmunocor.csv"))
 

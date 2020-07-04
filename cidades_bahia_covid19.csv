@@ -1,0 +1,584 @@
+regex,municipio
+^[^A-Z]*FEIRA[^A-Z]+DE[^A-Z]+SANTANA[^A-Z]*$,Feira de Santana
+^[^A-Z]*SERRINHA[^A-Z]*$,Serrinha
+^[^A-Z]*ITABERABA[^A-Z]*$,Itaberaba
+^[^A-Z]*ARACI[^A-Z]*$,Araci
+^[^A-Z]*VALENTE[^A-Z]*$,Valente
+^[^A-Z]*CONCEICAO[^A-Z]+DO[^A-Z]+COITE[^A-Z]*$,Conceição do Coité
+^[^A-Z]*CONCEIÇÃO[^A-Z]+DO[^A-Z]+COITÉ[^A-Z]*$,Conceição do Coité
+^[^A-Z]*CONCEICAO[^A-Z]+DO[^A-Z]+JACUIPE[^A-Z]*$,Conceição do Jacuípe
+^[^A-Z]*CONCEIÇÃO[^A-Z]+DO[^A-Z]+JACUÍPE[^A-Z]*$,Conceição do Jacuípe
+^[^A-Z]*TEOFILANDIA[^A-Z]*$,Teofilândia
+^[^A-Z]*TEOFILÂNDIA[^A-Z]*$,Teofilândia
+^[^A-Z]*SANTA[^A-Z]+BARBARA[^A-Z]*$,Santa Bárbara
+^[^A-Z]*SANTA[^A-Z]+BÁRBARA[^A-Z]*$,Santa Bárbara
+^[^A-Z]*SAO[^A-Z]+GONCALO[^A-Z]+DOS[^A-Z]+CAMPOS[^A-Z]*$,São Gonçalo dos Campos
+^[^A-Z]*SÃO[^A-Z]+GONÇALO[^A-Z]+DOS[^A-Z]+CAMPOS[^A-Z]*$,São Gonçalo dos Campos
+^[^A-Z]*AMELIA[^A-Z]+RODRIGUES[^A-Z]*$,Amélia Rodrigues
+^[^A-Z]*AMÉLIA[^A-Z]+RODRIGUES[^A-Z]*$,Amélia Rodrigues
+^[^A-Z]*RUY[^A-Z]+BARBOSA[^A-Z]*$,Ruy Barbosa
+^[^A-Z]*PINTADAS[^A-Z]*$,Pintadas
+^[^A-Z]*IPIRA[^A-Z]*$,Ipirá
+^[^A-Z]*IPIRÁ[^A-Z]*$,Ipirá
+^[^A-Z]*MONTE[^A-Z]+SANTO[^A-Z]*$,Monte Santo
+^[^A-Z]*SANTALUZ[^A-Z]*$,Santaluz
+^[^A-Z]*RIACHAO[^A-Z]+DO[^A-Z]+JACUIPE[^A-Z]*$,Riachão do Jacuípe
+^[^A-Z]*RIACHÃO[^A-Z]+DO[^A-Z]+JACUÍPE[^A-Z]*$,Riachão do Jacuípe
+^[^A-Z]*TERRA[^A-Z]+NOVA[^A-Z]*$,Terra Nova
+^[^A-Z]*RAFAEL[^A-Z]+JAMBEIRO[^A-Z]*$,Rafael Jambeiro
+^[^A-Z]*QUEIMADAS[^A-Z]*$,Queimadas
+^[^A-Z]*RETIROLANDI[^A-Z]*A[^A-Z]*$,Retirolândia
+^[^A-Z]*RETIROLÂNDI[^A-Z]*A[^A-Z]*$,Retirolândia
+^[^A-Z]*NORDESTINA[^A-Z]*$,Nordestina
+^[^A-Z]*CORACAO[^A-Z]+DE[^A-Z]+MARIA[^A-Z]*$,Coração de Maria
+^[^A-Z]*CORAÇÃO[^A-Z]+DE[^A-Z]+MARIA[^A-Z]*$,Coração de Maria
+^[^A-Z]*IRAQUARA[^A-Z]*$,Iraquara
+^[^A-Z]*ITAETE[^A-Z]*$,Itaeté
+^[^A-Z]*ITAETÉ[^A-Z]*$,Itaeté
+^[^A-Z]*SANTO[^A-Z]+ESTEVAO[^A-Z]*$,Santo Estêvão
+^[^A-Z]*SANTO[^A-Z]+ESTÊVÃO[^A-Z]*$,Santo Estêvão
+^[^A-Z]*IACU[^A-Z]*$,Iaçu
+^[^A-Z]*IAÇU[^A-Z]*$,Iaçu
+^[^A-Z]*CANSANCAO[^A-Z]*$,Cansanção
+^[^A-Z]*CANSANÇÃO[^A-Z]*$,Cansanção
+^[^A-Z]*BARROCAS[^A-Z]*$,Barrocas
+^[^A-Z]*AGUA[^A-Z]+FRIA[^A-Z]*$,Água Fria
+^[^A-Z]*ÁGUA[^A-Z]+FRIA[^A-Z]*$,Água Fria
+^[^A-Z]*TUCANO[^A-Z]*$,Tucano
+^[^A-Z]*TANQUINHO[^A-Z]*$,Tanquinho
+^[^A-Z]*EUCLIDES[^A-Z]+DA[^A-Z]+CUNHA[^A-Z]*$,Euclides da Cunha
+^[^A-Z]*ANGUERA[^A-Z]*$,Anguera
+^[^A-Z]*IRARA[^A-Z]*$,Irará
+^[^A-Z]*IRARÁ[^A-Z]*$,Irará
+^[^A-Z]*SANTANOPOLI[^A-Z]*S[^A-Z]*$,Santanópolis
+^[^A-Z]*SANTANÓPOLI[^A-Z]*S[^A-Z]*$,Santanópolis
+^[^A-Z]*SEABRA[^A-Z]*$,Seabra
+^[^A-Z]*PE[^A-Z]+DE[^A-Z]+SERRA[^A-Z]*$,Pé de Serra
+^[^A-Z]*PÉ[^A-Z]+DE[^A-Z]+SERRA[^A-Z]*$,Pé de Serra
+^[^A-Z]*LAMARAO[^A-Z]*$,Lamarão
+^[^A-Z]*LAMARÃO[^A-Z]*$,Lamarão
+^[^A-Z]*SERRA[^A-Z]+PRETA[^A-Z]*$,Serra Preta
+^[^A-Z]*CANDEAL[^A-Z]*$,Candeal
+^[^A-Z]*QUIJINGUE[^A-Z]*$,Quijingue
+^[^A-Z]*TEODORO[^A-Z]+SAMPAIO[^A-Z]*$,Teodoro Sampaio
+^[^A-Z]*CAPELA[^A-Z]+DO[^A-Z]+ALTO[^A-Z]+ALEGRE[^A-Z]*$,Capela do Alto Alegre
+^[^A-Z]*ANTONIO[^A-Z]+CARDOSO[^A-Z]*$,Antônio Cardoso
+^[^A-Z]*ANTÔNIO[^A-Z]+CARDOSO[^A-Z]*$,Antônio Cardoso
+^[^A-Z]*MUCUGE[^A-Z]*$,Mucugê
+^[^A-Z]*MUCUGÊ[^A-Z]*$,Mucugê
+^[^A-Z]*MACAJUBA[^A-Z]*$,Macajuba
+^[^A-Z]*IBITIARA[^A-Z]*$,Ibitiara
+^[^A-Z]*ANDARAI[^A-Z]*$,Andaraí
+^[^A-Z]*ANDARAÍ[^A-Z]*$,Andaraí
+^[^A-Z]*PIATA[^A-Z]*$,Piatã
+^[^A-Z]*PIATÃ[^A-Z]*$,Piatã
+^[^A-Z]*MARCIONILIO[^A-Z]+SOUZA[^A-Z]*$,Marcionílio Souza
+^[^A-Z]*MARCIONÍLIO[^A-Z]+SOUZA[^A-Z]*$,Marcionílio Souza
+^[^A-Z]*SAO[^A-Z]+DOMINGOS[^A-Z]*$,São Domingos
+^[^A-Z]*SÃO[^A-Z]+DOMINGOS[^A-Z]*$,São Domingos
+^[^A-Z]*IPECAETA[^A-Z]*$,Ipecaetá
+^[^A-Z]*IPECAETÁ[^A-Z]*$,Ipecaetá
+^[^A-Z]*UTINGA[^A-Z]*$,Utinga
+^[^A-Z]*BOA[^A-Z]+VISTA[^A-Z]+DO[^A-Z]+TUPIM[^A-Z]*$,Boa Vista do Tupim
+^[^A-Z]*ABAIRA[^A-Z]*$,Abaíra
+^[^A-Z]*ABAÍRA[^A-Z]*$,Abaíra
+^[^A-Z]*SOUTO[^A-Z]+SOARES[^A-Z]*$,Souto Soares
+^[^A-Z]*NOVA[^A-Z]+FATIMA[^A-Z]*$,Nova Fátima
+^[^A-Z]*NOVA[^A-Z]+FÁTIMA[^A-Z]*$,Nova Fátima
+^[^A-Z]*BONINAL[^A-Z]*$,Boninal
+^[^A-Z]*PALMEIRAS[^A-Z]*$,Palmeiras
+^[^A-Z]*NOVA[^A-Z]+REDENCAO[^A-Z]*$,Nova Redenção
+^[^A-Z]*NOVA[^A-Z]+REDENÇÃO[^A-Z]*$,Nova Redenção
+^[^A-Z]*ICHU[^A-Z]*$,Ichu
+^[^A-Z]*BAIXA[^A-Z]+GRANDE[^A-Z]*$,Baixa Grande
+^[^A-Z]*WAGNER[^A-Z]*$,Wagner
+^[^A-Z]*MUNDO[^A-Z]+NOVO[^A-Z]*$,Mundo Novo
+^[^A-Z]*BIRITINGA[^A-Z]*$,Biritinga
+^[^A-Z]*JACOBINA[^A-Z]*$,Jacobina
+^[^A-Z]*CAPIM[^A-Z]+GROSSO[^A-Z]*$,Capim Grosso
+^[^A-Z]*IRECE[^A-Z]*$,Irecê
+^[^A-Z]*IRECÊ[^A-Z]*$,Irecê
+^[^A-Z]*JOAO[^A-Z]+DOURADO[^A-Z]*$,João Dourado
+^[^A-Z]*JOÃO[^A-Z]+DOURADO[^A-Z]*$,João Dourado
+^[^A-Z]*UMBURANAS[^A-Z]*$,Umburanas
+^[^A-Z]*CAEM[^A-Z]*$,Caém
+^[^A-Z]*CAÉM[^A-Z]*$,Caém
+^[^A-Z]*MAIRI[^A-Z]*$,Mairi
+^[^A-Z]*CALDEIRAO[^A-Z]+GRANDE[^A-Z]*$,Caldeirão Grande
+^[^A-Z]*CALDEIRÃO[^A-Z]+GRANDE[^A-Z]*$,Caldeirão Grande
+^[^A-Z]*PRESIDENTE[^A-Z]+DUTRA[^A-Z]*$,Presidente Dutra
+^[^A-Z]*XIQUE-XIQUE[^A-Z]*$,Xique-Xique
+^[^A-Z]*LAPAO[^A-Z]*$,Lapão
+^[^A-Z]*LAPÃO[^A-Z]*$,Lapão
+^[^A-Z]*CANARANA[^A-Z]*$,Canarana
+^[^A-Z]*SERROLANDIA[^A-Z]*$,Serrolândia
+^[^A-Z]*SERROLÂNDIA[^A-Z]*$,Serrolândia
+^[^A-Z]*AMERICA[^A-Z]+DOURADA[^A-Z]*$,América Dourada
+^[^A-Z]*AMÉRICA[^A-Z]+DOURADA[^A-Z]*$,América Dourada
+^[^A-Z]*MIGUEL[^A-Z]+CALMON[^A-Z]*$,Miguel Calmon
+^[^A-Z]*GENTIO[^A-Z]+DO[^A-Z]+OURO[^A-Z]*$,Gentio do Ouro
+^[^A-Z]*VARZEA[^A-Z]+NOVA[^A-Z]*$,Várzea Nova
+^[^A-Z]*VÁRZEA[^A-Z]+NOVA[^A-Z]*$,Várzea Nova
+^[^A-Z]*QUIXABEIRA[^A-Z]*$,Quixabeira
+^[^A-Z]*MORRO[^A-Z]+DO[^A-Z]+CHAPEU[^A-Z]*$,Morro do Chapéu
+^[^A-Z]*MORRO[^A-Z]+DO[^A-Z]+CHAPÉU[^A-Z]*$,Morro do Chapéu
+^[^A-Z]*OUROLANDIA[^A-Z]*$,Ourolândia
+^[^A-Z]*OUROLÂNDIA[^A-Z]*$,Ourolândia
+^[^A-Z]*MULUNGU[^A-Z]+DO[^A-Z]+MORRO[^A-Z]*$,Mulungu do Morro
+^[^A-Z]*MIRANGABA[^A-Z]*$,Mirangaba
+^[^A-Z]*IBIPEBA[^A-Z]*$,Ibipeba
+^[^A-Z]*PIRITIBA[^A-Z]*$,Piritiba
+^[^A-Z]*VARZEA[^A-Z]+DA[^A-Z]+ROCA[^A-Z]*$,Várzea da Roça
+^[^A-Z]*VÁRZEA[^A-Z]+DA[^A-Z]+ROÇA[^A-Z]*$,Várzea da Roça
+^[^A-Z]*UIBAI[^A-Z]*$,Uibaí
+^[^A-Z]*UIBAÍ[^A-Z]*$,Uibaí
+^[^A-Z]*SAO[^A-Z]+JOSE[^A-Z]+DO[^A-Z]+JACUIPE[^A-Z]*$,São José do Jacuípe
+^[^A-Z]*SÃO[^A-Z]+JOSÉ[^A-Z]+DO[^A-Z]+JACUÍPE[^A-Z]*$,São José do Jacuípe
+^[^A-Z]*SAO[^A-Z]+GABRIEL[^A-Z]*$,São Gabriel
+^[^A-Z]*SÃO[^A-Z]+GABRIEL[^A-Z]*$,São Gabriel
+^[^A-Z]*CAFARNAUM[^A-Z]*$,Cafarnaum
+^[^A-Z]*TAPIRAMUTA[^A-Z]*$,Tapiramutá
+^[^A-Z]*TAPIRAMUTÁ[^A-Z]*$,Tapiramutá
+^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+MENDES[^A-Z]*$,Barra do Mendes
+^[^A-Z]*ITAGUACU[^A-Z]+DA[^A-Z]+BAHIA[^A-Z]*$,Itaguaçu da Bahia
+^[^A-Z]*ITAGUAÇU[^A-Z]+DA[^A-Z]+BAHIA[^A-Z]*$,Itaguaçu da Bahia
+^[^A-Z]*JUSSARA[^A-Z]*$,Jussara
+^[^A-Z]*TEIXEIRA[^A-Z]+DE[^A-Z]+FREITAS[^A-Z]*$,Teixeira de Freitas
+^[^A-Z]*EUNAPOLIS[^A-Z]*$,Eunápolis
+^[^A-Z]*EUNÁPOLIS[^A-Z]*$,Eunápolis
+^[^A-Z]*PORTO[^A-Z]+SEGURO[^A-Z]*$,Porto Seguro
+^[^A-Z]*ITAMARAJU[^A-Z]*$,Itamaraju
+^[^A-Z]*MUCURI[^A-Z]*$,Mucuri
+^[^A-Z]*NOVA[^A-Z]+VICOSA[^A-Z]*$,Nova Viçosa
+^[^A-Z]*NOVA[^A-Z]+VIÇOSA[^A-Z]*$,Nova Viçosa
+^[^A-Z]*PRADO[^A-Z]*$,Prado
+^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+CABRALIA[^A-Z]*$,Santa Cruz Cabrália
+^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+CABRÁLIA[^A-Z]*$,Santa Cruz Cabrália
+^[^A-Z]*ITANHEM[^A-Z]*$,Itanhém
+^[^A-Z]*ITANHÉM[^A-Z]*$,Itanhém
+^[^A-Z]*MEDEIROS[^A-Z]+NETO[^A-Z]*$,Medeiros Neto
+^[^A-Z]*BELMONTE[^A-Z]*$,Belmonte
+^[^A-Z]*ITABELA[^A-Z]*$,Itabela
+^[^A-Z]*ITAPEBI[^A-Z]*$,Itapebi
+^[^A-Z]*ALCOBACA[^A-Z]*$,Alcobaça
+^[^A-Z]*ALCOBAÇA[^A-Z]*$,Alcobaça
+^[^A-Z]*IBIRAPUA[^A-Z]*$,Ibirapuã
+^[^A-Z]*IBIRAPUÃ[^A-Z]*$,Ibirapuã
+^[^A-Z]*GUARATINGA[^A-Z]*$,Guaratinga
+^[^A-Z]*CARAVELAS[^A-Z]*$,Caravelas
+^[^A-Z]*VEREDA[^A-Z]*$,Vereda
+^[^A-Z]*LAJEDAO[^A-Z]*$,Lajedão
+^[^A-Z]*LAJEDÃO[^A-Z]*$,Lajedão
+^[^A-Z]*ITAGIMIRIM[^A-Z]*$,Itagimirim
+^[^A-Z]*JUCURUCU[^A-Z]*$,Jucuruçu
+^[^A-Z]*JUCURUÇU[^A-Z]*$,Jucuruçu
+^[^A-Z]*TOTAL[^A-Z]*$,Total
+^[^A-Z]*SALVADOR[^A-Z]*$,Salvador
+^[^A-Z]*LAURO[^A-Z]+DE[^A-Z]+FREITAS[^A-Z]*$,Lauro de Freitas
+^[^A-Z]*CAMACARI[^A-Z]*$,Camaçari
+^[^A-Z]*CAMAÇARI[^A-Z]*$,Camaçari
+^[^A-Z]*SIMOES[^A-Z]+FILHO[^A-Z]*$,Simões Filho
+^[^A-Z]*SIMÕES[^A-Z]+FILHO[^A-Z]*$,Simões Filho
+^[^A-Z]*CANDEIAS[^A-Z]*$,Candeias
+^[^A-Z]*SANTO[^A-Z]+ANTONIO[^A-Z]+DE[^A-Z]+JESUS[^A-Z]*$,Santo Antônio de Jesus
+^[^A-Z]*SANTO[^A-Z]+ANTÔNIO[^A-Z]+DE[^A-Z]+JESUS[^A-Z]*$,Santo Antônio de Jesus
+^[^A-Z]*DIAS[^A-Z]+DAVILA[^A-Z]*$,Dias Dávila
+^[^A-Z]*DIAS[^A-Z]+DÁVILA[^A-Z]*$,Dias Dávila
+^[^A-Z]*SAO[^A-Z]+FRANCISCO[^A-Z]+DO[^A-Z]+CONDE[^A-Z]*$,São Francisco do Conde
+^[^A-Z]*SÃO[^A-Z]+FRANCISCO[^A-Z]+DO[^A-Z]+CONDE[^A-Z]*$,São Francisco do Conde
+^[^A-Z]*MADRE[^A-Z]+DE[^A-Z]+DEUS[^A-Z]*$,Madre de Deus
+^[^A-Z]*POJUCA[^A-Z]*$,Pojuca
+^[^A-Z]*SAO[^A-Z]+SEBASTIAO[^A-Z]+DO[^A-Z]+PASSE[^A-Z]*$,São Sebastião do Passé
+^[^A-Z]*SÃO[^A-Z]+SEBASTIÃO[^A-Z]+DO[^A-Z]+PASSÉ[^A-Z]*$,São Sebastião do Passé
+^[^A-Z]*SANTO[^A-Z]+AMARO[^A-Z]*$,Santo Amaro
+^[^A-Z]*MATA[^A-Z]+DE[^A-Z]+SAO[^A-Z]+JOAO[^A-Z]*$,Mata de São João
+^[^A-Z]*MATA[^A-Z]+DE[^A-Z]+SÃO[^A-Z]+JOÃO[^A-Z]*$,Mata de São João
+^[^A-Z]*VERA[^A-Z]+CRUZ[^A-Z]*$,Vera Cruz
+^[^A-Z]*CRUZ[^A-Z]+DAS[^A-Z]+ALMAS[^A-Z]*$,Cruz das Almas
+^[^A-Z]*CONCEICAO[^A-Z]+DA[^A-Z]+FEIRA[^A-Z]*$,Conceição da Feira
+^[^A-Z]*CONCEIÇÃO[^A-Z]+DA[^A-Z]+FEIRA[^A-Z]*$,Conceição da Feira
+^[^A-Z]*MARAGOGIPE[^A-Z]*$,Maragogipe
+^[^A-Z]*PRESIDENTE[^A-Z]+TANCREDO[^A-Z]+NEVES[^A-Z]*$,Presidente Tancredo Neves
+^[^A-Z]*CACHOEIRA[^A-Z]*$,Cachoeira
+^[^A-Z]*ITAPARICA[^A-Z]*$,Itaparica
+^[^A-Z]*MURITIBA[^A-Z]*$,Muritiba
+^[^A-Z]*CASTRO[^A-Z]+ALVES[^A-Z]*$,Castro Alves
+^[^A-Z]*MILAGRES[^A-Z]*$,Milagres
+^[^A-Z]*NAZARE[^A-Z]*$,Nazaré
+^[^A-Z]*NAZARÉ[^A-Z]*$,Nazaré
+^[^A-Z]*AMARGOSA[^A-Z]*$,Amargosa
+^[^A-Z]*CONDE[^A-Z]*$,Conde
+^[^A-Z]*CONCEICAO[^A-Z]+DO[^A-Z]+ALMEIDA[^A-Z]*$,Conceição do Almeida
+^[^A-Z]*CONCEIÇÃO[^A-Z]+DO[^A-Z]+ALMEIDA[^A-Z]*$,Conceição do Almeida
+^[^A-Z]*ITATIM[^A-Z]*$,Itatim
+^[^A-Z]*SAUBARA[^A-Z]*$,Saubara
+^[^A-Z]*SAPEACU[^A-Z]*$,Sapeaçu
+^[^A-Z]*SAPEAÇU[^A-Z]*$,Sapeaçu
+^[^A-Z]*JAGUARIPE[^A-Z]*$,Jaguaripe
+^[^A-Z]*MUTUIPE[^A-Z]*$,Mutuípe
+^[^A-Z]*MUTUÍPE[^A-Z]*$,Mutuípe
+^[^A-Z]*SAO[^A-Z]+FELIX[^A-Z]*$,São Félix
+^[^A-Z]*SÃO[^A-Z]+FÉLIX[^A-Z]*$,São Félix
+^[^A-Z]*GOVERNADOR[^A-Z]+MANGABEIRA[^A-Z]*$,Governador Mangabeira
+^[^A-Z]*SANTA[^A-Z]+TERESINHA[^A-Z]*$,Santa Teresinha
+^[^A-Z]*SAO[^A-Z]+FELIPE[^A-Z]*$,São Felipe
+^[^A-Z]*SÃO[^A-Z]+FELIPE[^A-Z]*$,São Felipe
+^[^A-Z]*LAJE[^A-Z]*$,Laje
+^[^A-Z]*CABACEIRAS[^A-Z]+DO[^A-Z]+PARAGUACU[^A-Z]*$,Cabaceiras do Paraguaçu
+^[^A-Z]*CABACEIRAS[^A-Z]+DO[^A-Z]+PARAGUAÇU[^A-Z]*$,Cabaceiras do Paraguaçu
+^[^A-Z]*SALINAS[^A-Z]+DA[^A-Z]+MARGARIDA[^A-Z]*$,Salinas da Margarida
+^[^A-Z]*MUNIZ[^A-Z]+FERREIRA[^A-Z]*$,Muniz Ferreira
+^[^A-Z]*DOM[^A-Z]+MACEDO[^A-Z]+COSTA[^A-Z]*$,Dom Macedo Costa
+^[^A-Z]*UBAIRA[^A-Z]*$,Ubaíra
+^[^A-Z]*UBAÍRA[^A-Z]*$,Ubaíra
+^[^A-Z]*VARZEDO[^A-Z]*$,Varzedo
+^[^A-Z]*SAO[^A-Z]+MIGUEL[^A-Z]+DAS[^A-Z]+MATAS[^A-Z]*$,São Miguel das Matas
+^[^A-Z]*SÃO[^A-Z]+MIGUEL[^A-Z]+DAS[^A-Z]+MATAS[^A-Z]*$,São Miguel das Matas
+^[^A-Z]*NOVA[^A-Z]+ITARANA[^A-Z]*$,Nova Itarana
+^[^A-Z]*JIQUIRICA[^A-Z]*$,Jiquiriçá
+^[^A-Z]*JIQUIRIÇÁ[^A-Z]*$,Jiquiriçá
+^[^A-Z]*ELISIO[^A-Z]+MEDRADO[^A-Z]*$,Elísio Medrado
+^[^A-Z]*ELÍSIO[^A-Z]+MEDRADO[^A-Z]*$,Elísio Medrado
+^[^A-Z]*ARATUIPE[^A-Z]*$,Aratuípe
+^[^A-Z]*ARATUÍPE[^A-Z]*$,Aratuípe
+^[^A-Z]*ALAGOINHAS[^A-Z]*$,Alagoinhas
+^[^A-Z]*CATU[^A-Z]*$,Catu
+^[^A-Z]*RIBEIRA[^A-Z]+DO[^A-Z]+POMBAL[^A-Z]*$,Ribeira do Pombal
+^[^A-Z]*ENTRE[^A-Z]+RIOS[^A-Z]*$,Entre Rios
+^[^A-Z]*NOVA[^A-Z]+SOURE[^A-Z]*$,Nova Soure
+^[^A-Z]*JANDAIRA[^A-Z]*$,Jandaíra
+^[^A-Z]*JANDAÍRA[^A-Z]*$,Jandaíra
+^[^A-Z]*ITAPICURU[^A-Z]*$,Itapicuru
+^[^A-Z]*RIO[^A-Z]+REAL[^A-Z]*$,Rio Real
+^[^A-Z]*ESPLANADA[^A-Z]*$,Esplanada
+^[^A-Z]*APORA[^A-Z]*$,Aporá
+^[^A-Z]*APORÁ[^A-Z]*$,Aporá
+^[^A-Z]*CICERO[^A-Z]+DANTAS[^A-Z]*$,Cícero Dantas
+^[^A-Z]*CÍCERO[^A-Z]+DANTAS[^A-Z]*$,Cícero Dantas
+^[^A-Z]*SITIO[^A-Z]+DO[^A-Z]+QUINTO[^A-Z]*$,Sítio do Quinto
+^[^A-Z]*SÍTIO[^A-Z]+DO[^A-Z]+QUINTO[^A-Z]*$,Sítio do Quinto
+^[^A-Z]*ADUSTINA[^A-Z]*$,Adustina
+^[^A-Z]*BANZAE[^A-Z]*$,Banzaê
+^[^A-Z]*BANZAÊ[^A-Z]*$,Banzaê
+^[^A-Z]*PARIPIRANGA[^A-Z]*$,Paripiranga
+^[^A-Z]*ACAJUTIBA[^A-Z]*$,Acajutiba
+^[^A-Z]*SATIRO[^A-Z]+DIAS[^A-Z]*$,Sátiro Dias
+^[^A-Z]*SÁTIRO[^A-Z]+DIAS[^A-Z]*$,Sátiro Dias
+^[^A-Z]*NOVO[^A-Z]+TRIUNFO[^A-Z]*$,Novo Triunfo
+^[^A-Z]*NOVO[^A-Z]+HORIZONTE[^A-Z]*$,Novo Horizonte
+^[^A-Z]*IBIQUERA[^A-Z]*$,Ibiquera
+^[^A-Z]*SANTANA[^A-Z]*$,Santana
+^[^A-Z]*SERRA[^A-Z]+DOURADA[^A-Z]*$,Serra Dourada
+^[^A-Z]*TANHACU[^A-Z]*$,Tanhaçu
+^[^A-Z]*TANHAÇU[^A-Z]*$,Tanhaçu
+^[^A-Z]*SAUDE[^A-Z]*$,Saúde
+^[^A-Z]*SAÚDE[^A-Z]*$,Saúde
+^[^A-Z]*CENTRAL[^A-Z]*$,Central
+^[^A-Z]*MATINA[^A-Z]*$,Matina
+^[^A-Z]*BONITO[^A-Z]*$,Bonito
+^[^A-Z]*TANQUE[^A-Z]+NOVO[^A-Z]*$,Tanque Novo
+^[^A-Z]*GAVIÃO[^A-Z]*$,Gavião
+^[^A-Z]*GAVIAO[^A-Z]*$,Gavião
+^[^A-Z]*TANQUE[^A-Z]+NOVO[^A-Z]*$,Tanque Novo
+^[^A-Z]*ERICO[^A-Z]+CARDOSO[^A-Z]*$,Érico Cardoso
+^[^A-Z]*ÉRICO[^A-Z]+CARDOSO[^A-Z]*$,Érico Cardoso
+^[^A-Z]*BELO[^A-Z]+CAMPO[^A-Z]*$,Belo Campo
+^[^A-Z]*BARRO[^A-Z]+ALTO[^A-Z]*$,Barro Alto
+^[^A-Z]*SEBASTIAO[^A-Z]+LARANJEIRAS[^A-Z]*$,Sebastião Laranjeiras
+^[^A-Z]*SEBASTIÃO[^A-Z]+LARANJEIRAS[^A-Z]*$,Sebastião Laranjeiras
+^[^A-Z]*CIPO[^A-Z]*$,Cipó
+^[^A-Z]*CIPÓ[^A-Z]*$,Cipó
+^[^A-Z]*OLINDINA[^A-Z]*$,Olindina
+^[^A-Z]*RIBEIRA[^A-Z]+DO[^A-Z]+AMPARO[^A-Z]*$,Ribeira do Amparo
+^[^A-Z]*INHAMBUPE[^A-Z]*$,Inhambupe
+^[^A-Z]*FATIMA[^A-Z]*$,Fátima
+^[^A-Z]*FÁTIMA[^A-Z]*$,Fátima
+^[^A-Z]*CORONEL[^A-Z]+JOAO[^A-Z]+SA[^A-Z]*$,Coronel João Sá
+^[^A-Z]*CORONEL[^A-Z]+JOÃO[^A-Z]+SÁ[^A-Z]*$,Coronel João Sá
+^[^A-Z]*CRISOPOLIS[^A-Z]*$,Crisópolis
+^[^A-Z]*CRISÓPOLIS[^A-Z]*$,Crisópolis
+^[^A-Z]*OURICANGAS[^A-Z]*$,Ouriçangas
+^[^A-Z]*OURIÇANGAS[^A-Z]*$,Ouriçangas
+^[^A-Z]*ITANAGRA[^A-Z]*$,Itanagra
+^[^A-Z]*HELIOPOLIS[^A-Z]*$,Heliópolis
+^[^A-Z]*HELIÓPOLIS[^A-Z]*$,Heliópolis
+^[^A-Z]*CARDEAL[^A-Z]+DA[^A-Z]+SILVA[^A-Z]*$,Cardeal da Silva
+^[^A-Z]*ARAMARI[^A-Z]*$,Aramari
+^[^A-Z]*ARACAS[^A-Z]*$,Araças
+^[^A-Z]*ARAÇAS[^A-Z]*$,Araças
+^[^A-Z]*ANTAS[^A-Z]*$,Antas
+^[^A-Z]*PEDRAO[^A-Z]*$,Pedrão
+^[^A-Z]*PEDRÃO[^A-Z]*$,Pedrão
+^[^A-Z]*JUAZEIRO[^A-Z]*$,Juazeiro
+^[^A-Z]*PAULO[^A-Z]+AFONSO[^A-Z]*$,Paulo Afonso
+^[^A-Z]*SOBRADINHO[^A-Z]*$,Sobradinho
+^[^A-Z]*SENHOR[^A-Z]+DO[^A-Z]+BONFIM[^A-Z]*$,Senhor do Bonfim
+^[^A-Z]*CASA[^A-Z]+NOVA[^A-Z]*$,Casa Nova
+^[^A-Z]*CAMPO[^A-Z]+FORMOSO[^A-Z]*$,Campo Formoso
+^[^A-Z]*FILADELFIA[^A-Z]*$,Filadélfia
+^[^A-Z]*FILADÉLFIA[^A-Z]*$,Filadélfia
+^[^A-Z]*CURACA[^A-Z]*$,Curaçá
+^[^A-Z]*CURAÇÁ[^A-Z]*$,Curaçá
+^[^A-Z]*JAGUARARI[^A-Z]*$,Jaguarari
+^[^A-Z]*PILAO[^A-Z]+ARCADO[^A-Z]*$,Pilão Arcado
+^[^A-Z]*PILÃO[^A-Z]+ARCADO[^A-Z]*$,Pilão Arcado
+^[^A-Z]*CAMPO[^A-Z]+ALEGRE[^A-Z]+DE[^A-Z]+LOURDES[^A-Z]*$,Campo Alegre de Lourdes
+^[^A-Z]*REMANSO[^A-Z]*$,Remanso
+^[^A-Z]*SENTO[^A-Z]+SE[^A-Z]*$,Sento Sé
+^[^A-Z]*SENTO[^A-Z]+SÉ[^A-Z]*$,Sento Sé
+^[^A-Z]*UAUA[^A-Z]*$,Uauá
+^[^A-Z]*UAUÁ[^A-Z]*$,Uauá
+^[^A-Z]*PINDOBACU[^A-Z]*$,Pindobaçu
+^[^A-Z]*PINDOBAÇU[^A-Z]*$,Pindobaçu
+^[^A-Z]*PONTO[^A-Z]+NOVO[^A-Z]*$,Ponto Novo
+^[^A-Z]*GLORIA[^A-Z]*$,Glória
+^[^A-Z]*GLÓRIA[^A-Z]*$,Glória
+^[^A-Z]*MACURURE[^A-Z]*$,Macururé
+^[^A-Z]*MACURURÉ[^A-Z]*$,Macururé
+^[^A-Z]*CANUDOS[^A-Z]*$,Canudos
+^[^A-Z]*ANTONIO[^A-Z]+GONCALVES[^A-Z]*$,Antônio Gonçalves
+^[^A-Z]*ANTÔNIO[^A-Z]+GONÇALVES[^A-Z]*$,Antônio Gonçalves
+^[^A-Z]*SANTA[^A-Z]+BRIGIDA[^A-Z]*$,Santa Brígida
+^[^A-Z]*SANTA[^A-Z]+BRÍGIDA[^A-Z]*$,Santa Brígida
+^[^A-Z]*JEREMOABO[^A-Z]*$,Jeremoabo
+^[^A-Z]*RODELAS[^A-Z]*$,Rodelas
+^[^A-Z]*ITIUBA[^A-Z]*$,Itiúba
+^[^A-Z]*ITIÚBA[^A-Z]*$,Itiúba
+^[^A-Z]*ANDORINHA[^A-Z]*$,Andorinha
+^[^A-Z]*PEDRO[^A-Z]+ALEXANDRE[^A-Z]*$,Pedro Alexandre
+^[^A-Z]*ABARE[^A-Z]*$,Abaré
+^[^A-Z]*ABARÉ[^A-Z]*$,Abaré
+^[^A-Z]*CHORROCHO[^A-Z]*$,Chorrochó
+^[^A-Z]*CHORROCHÓ[^A-Z]*$,Chorrochó
+^[^A-Z]*BARREIRAS[^A-Z]*$,Barreiras
+^[^A-Z]*LUIS[^A-Z]+EDUARDO[^A-Z]+MAGALHAES[^A-Z]*$,Luís Eduardo Magalhães
+^[^A-Z]*LUÍS[^A-Z]+EDUARDO[^A-Z]+MAGALHÃES[^A-Z]*$,Luís Eduardo Magalhães
+^[^A-Z]*BOM[^A-Z]+JESUS[^A-Z]+DA[^A-Z]+LAPA[^A-Z]*$,Bom Jesus da Lapa
+^[^A-Z]*SAO[^A-Z]+DESIDERIO[^A-Z]*$,São Desidério
+^[^A-Z]*SÃO[^A-Z]+DESIDÉRIO[^A-Z]*$,São Desidério
+^[^A-Z]*RIACHAO[^A-Z]+DAS[^A-Z]+NEVES[^A-Z]*$,Riachão das Neves
+^[^A-Z]*RIACHÃO[^A-Z]+DAS[^A-Z]+NEVES[^A-Z]*$,Riachão das Neves
+^[^A-Z]*OLIVEIRA[^A-Z]+DOS[^A-Z]+BREJINHOS[^A-Z]*$,Oliveira dos Brejinhos
+^[^A-Z]*MANSIDAO[^A-Z]*$,Mansidão
+^[^A-Z]*MANSIDÃO[^A-Z]*$,Mansidão
+^[^A-Z]*BURITIRAMA[^A-Z]*$,Buritirama
+^[^A-Z]*CRISTOPOLIS[^A-Z]*$,Cristópolis
+^[^A-Z]*CRISTÓPOLIS[^A-Z]*$,Cristópolis
+^[^A-Z]*IBOTIRAMA[^A-Z]*$,Ibotirama
+^[^A-Z]*BARRA[^A-Z]*$,Barra
+^[^A-Z]*MUQUEM[^A-Z]+DE[^A-Z]+SAO[^A-Z]+FRANCISCO[^A-Z]*$,Muquém de São Francisco
+^[^A-Z]*MUQUÉM[^A-Z]+DE[^A-Z]+SÃO[^A-Z]+FRANCISCO[^A-Z]*$,Muquém de São Francisco
+^[^A-Z]*FORMOSA[^A-Z]+DO[^A-Z]+RIO[^A-Z]+PRETO[^A-Z]*$,Formosa do Rio Preto
+^[^A-Z]*SANTA[^A-Z]+RITA[^A-Z]+DE[^A-Z]+CASSIA[^A-Z]*$,Santa Rita de Cássia
+^[^A-Z]*SANTA[^A-Z]+RITA[^A-Z]+DE[^A-Z]+CÁSSIA[^A-Z]*$,Santa Rita de Cássia
+^[^A-Z]*MORPARA[^A-Z]*$,Morpará
+^[^A-Z]*MORPARÁ[^A-Z]*$,Morpará
+^[^A-Z]*PARATINGA[^A-Z]*$,Paratinga
+^[^A-Z]*SERRA[^A-Z]+DO[^A-Z]+RAMALHO[^A-Z]*$,Serra do Ramalho
+^[^A-Z]*COCOS[^A-Z]*$,Cocos
+^[^A-Z]*CORRENTINA[^A-Z]*$,Correntina
+^[^A-Z]*TABOCAS[^A-Z]+DO[^A-Z]+BREJO[^A-Z]+VELHO[^A-Z]*$,Tabocas do Brejo Velho
+^[^A-Z]*FEIRA[^A-Z]+DA[^A-Z]+MATA[^A-Z]*$,Feira da Mata
+^[^A-Z]*BAIANOPOLIS[^A-Z]*$,Baianópolis
+^[^A-Z]*BAIANÓPOLIS[^A-Z]*$,Baianópolis
+^[^A-Z]*CORIBE[^A-Z]*$,Coribe
+^[^A-Z]*SAO[^A-Z]+FELIX[^A-Z]+DO[^A-Z]+CORIBE[^A-Z]*$,São Félix do Coribe
+^[^A-Z]*SÃO[^A-Z]+FÉLIX[^A-Z]+DO[^A-Z]+CORIBE[^A-Z]*$,São Félix do Coribe
+^[^A-Z]*ANGICAL[^A-Z]*$,Angical
+^[^A-Z]*WANDERLEY[^A-Z]*$,Wanderley
+^[^A-Z]*JABORANDI[^A-Z]*$,Jaborandi
+^[^A-Z]*SANTA[^A-Z]+MARIA[^A-Z]+DA[^A-Z]+VITORIA[^A-Z]*$,Santa Maria da Vitória
+^[^A-Z]*SANTA[^A-Z]+MARIA[^A-Z]+DA[^A-Z]+VITÓRIA[^A-Z]*$,Santa Maria da Vitória
+^[^A-Z]*CATOLANDIA[^A-Z]*$,Catolândia
+^[^A-Z]*CATOLÂNDIA[^A-Z]*$,Catolândia
+^[^A-Z]*COTEGIPE[^A-Z]*$,Cotegipe
+^[^A-Z]*BROTAS[^A-Z]+DE[^A-Z]+MACAUBAS[^A-Z]*$,Brotas de Macaúbas
+^[^A-Z]*BROTAS[^A-Z]+DE[^A-Z]+MACAÚBAS[^A-Z]*$,Brotas de Macaúbas
+^[^A-Z]*VITORIA[^A-Z]+DA[^A-Z]+CONQUISTA[^A-Z]*$,Vitória da Conquista
+^[^A-Z]*VITÓRIA[^A-Z]+DA[^A-Z]+CONQUISTA[^A-Z]*$,Vitória da Conquista
+^[^A-Z]*IGUAI[^A-Z]*$,Iguaí
+^[^A-Z]*IGUAÍ[^A-Z]*$,Iguaí
+^[^A-Z]*POCOES[^A-Z]*$,Poções
+^[^A-Z]*POÇÕES[^A-Z]*$,Poções
+^[^A-Z]*BRUMADO[^A-Z]*$,Brumado
+^[^A-Z]*ITAPETINGA[^A-Z]*$,Itapetinga
+^[^A-Z]*URANDI[^A-Z]*$,Urandi
+^[^A-Z]*CANDIDO[^A-Z]+SALES[^A-Z]*$,Cândido Sales
+^[^A-Z]*CÂNDIDO[^A-Z]+SALES[^A-Z]*$,Cândido Sales
+^[^A-Z]*GUANAMBI[^A-Z]*$,Guanambi
+^[^A-Z]*ENCRUZILHAD[^A-Z]*A[^A-Z]*$,Encruzilhada
+^[^A-Z]*CAATIBA[^A-Z]*$,Caatiba
+^[^A-Z]*CAETITE[^A-Z]*$,Caetité
+^[^A-Z]*CAETITÉ[^A-Z]*$,Caetité
+^[^A-Z]*PIRIPA[^A-Z]*$,Piripá
+^[^A-Z]*PIRIPÁ[^A-Z]*$,Piripá
+^[^A-Z]*PLANALTO[^A-Z]*$,Planalto
+^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+CHOCA[^A-Z]*$,Barra do Choça
+^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+CHOÇA[^A-Z]*$,Barra do Choça
+^[^A-Z]*POTIRAGUA[^A-Z]*$,Potiraguá
+^[^A-Z]*POTIRAGUÁ[^A-Z]*$,Potiraguá
+^[^A-Z]*IBICUI[^A-Z]*$,Ibicuí
+^[^A-Z]*IBICUÍ[^A-Z]*$,Ibicuí
+^[^A-Z]*ITARANTIM[^A-Z]*$,Itarantim
+^[^A-Z]*ITORORO[^A-Z]*$,Itororó
+^[^A-Z]*ITORORÓ[^A-Z]*$,Itororó
+^[^A-Z]*CONDEUBA[^A-Z]*$,Condeúba
+^[^A-Z]*CONDEÚBA[^A-Z]*$,Condeúba
+^[^A-Z]*RIACHO[^A-Z]+DE[^A-Z]+SANTANA[^A-Z]*$,Riacho de Santana
+^[^A-Z]*MACARANI[^A-Z]*$,Macarani
+^[^A-Z]*NOVA[^A-Z]+CANAA[^A-Z]*$,Nova Canaã
+^[^A-Z]*NOVA[^A-Z]+CANAÃ[^A-Z]*$,Nova Canaã
+^[^A-Z]*PALMAS[^A-Z]+DE[^A-Z]+MONTE[^A-Z]+ALTO[^A-Z]*$,Palmas de Monte Alto
+^[^A-Z]*PINDAI[^A-Z]*$,Pindaí
+^[^A-Z]*PINDAÍ[^A-Z]*$,Pindaí
+^[^A-Z]*MAIQUINIQUE[^A-Z]*$,Maiquinique
+^[^A-Z]*LIVRAMENTO[^A-Z]+DE[^A-Z]+NOSSA[^A-Z]+SENHORA[^A-Z]*$,Livramento de Nossa Senhora
+^[^A-Z]*ARACATU[^A-Z]*$,Aracatu
+^[^A-Z]*BOQUIRA[^A-Z]*$,Boquira
+^[^A-Z]*BOM[^A-Z]+JESUS[^A-Z]+DA[^A-Z]+SERRA[^A-Z]*$,Bom Jesus da Serra
+^[^A-Z]*ITAMBE[^A-Z]*$,Itambé
+^[^A-Z]*ITAMBÉ[^A-Z]*$,Itambé
+^[^A-Z]*CANDIBA[^A-Z]*$,Candiba
+^[^A-Z]*LICINIO[^A-Z]+DE[^A-Z]+ALMEIDA[^A-Z]*$,Licínio de Almeida
+^[^A-Z]*LICÍNIO[^A-Z]+DE[^A-Z]+ALMEIDA[^A-Z]*$,Licínio de Almeida
+^[^A-Z]*ANAGE[^A-Z]*$,Anagé
+^[^A-Z]*ANAGÉ[^A-Z]*$,Anagé
+^[^A-Z]*MORTUGABA[^A-Z]*$,Mortugaba
+^[^A-Z]*IBIPITANGA[^A-Z]*$,Ibipitanga
+^[^A-Z]*MIRANTE[^A-Z]*$,Mirante
+^[^A-Z]*PARAMIRIM[^A-Z]*$,Paramirim
+^[^A-Z]*RIO[^A-Z]+DO[^A-Z]+PIRES[^A-Z]*$,Rio do Pires
+^[^A-Z]*CARAIBAS[^A-Z]*$,Caraíbas
+^[^A-Z]*CARAÍBAS[^A-Z]*$,Caraíbas
+^[^A-Z]*DOM[^A-Z]+BASILIO[^A-Z]*$,Dom Basílio
+^[^A-Z]*DOM[^A-Z]+BASÍLIO[^A-Z]*$,Dom Basílio
+^[^A-Z]*RIBEIRAO[^A-Z]+DO[^A-Z]+LARGO[^A-Z]*$,Ribeirão do Largo
+^[^A-Z]*RIBEIRÃO[^A-Z]+DO[^A-Z]+LARGO[^A-Z]*$,Ribeirão do Largo
+^[^A-Z]*RIO[^A-Z]+DO[^A-Z]+ANTONIO[^A-Z]*$,Rio do Antônio
+^[^A-Z]*RIO[^A-Z]+DO[^A-Z]+ANTÔNIO[^A-Z]*$,Rio do Antônio
+^[^A-Z]*MACAUBAS[^A-Z]*$,Macaúbas
+^[^A-Z]*MACAÚBAS[^A-Z]*$,Macaúbas
+^[^A-Z]*FIRMINO[^A-Z]+ALVES[^A-Z]*$,Firmino Alves
+^[^A-Z]*TREMEDAL[^A-Z]*$,Tremedal
+^[^A-Z]*MALHADA[^A-Z]*$,Malhada
+^[^A-Z]*MALHADA[^A-Z]+DE[^A-Z]+PEDRAS[^A-Z]*$,Malhada de Pedras
+^[^A-Z]*PRESIDENTE[^A-Z]+JANIO[^A-Z]+QUADROS[^A-Z]*$,Presidente Jânio Quadros
+^[^A-Z]*PRESIDENTE[^A-Z]+JÂNIO[^A-Z]+QUADROS[^A-Z]*$,Presidente Jânio Quadros
+^[^A-Z]*BARRA[^A-Z]+DA[^A-Z]+ESTIVA[^A-Z]*$,Barra da Estiva
+^[^A-Z]*CACULE[^A-Z]*$,Caculé
+^[^A-Z]*CACULÉ[^A-Z]*$,Caculé
+^[^A-Z]*CAETANOS[^A-Z]*$,Caetanos
+^[^A-Z]*CARINHANHA[^A-Z]*$,Carinhanha
+^[^A-Z]*GUAJERU[^A-Z]*$,Guajeru
+^[^A-Z]*JUSSIAPE[^A-Z]*$,Jussiape
+^[^A-Z]*IGAPORA[^A-Z]*$,Igaporã
+^[^A-Z]*IGAPORÃ[^A-Z]*$,Igaporã
+^[^A-Z]*CORDEIROS[^A-Z]*$,Cordeiros
+^[^A-Z]*IBIASSUCE[^A-Z]*$,Ibiassucê
+^[^A-Z]*IBIASSUCÊ[^A-Z]*$,Ibiassucê
+^[^A-Z]*IBICOARA[^A-Z]*$,Ibicoara
+^[^A-Z]*MAETINGA[^A-Z]*$,Maetinga
+^[^A-Z]*ITUACU[^A-Z]*$,Ituaçu
+^[^A-Z]*ITUAÇU[^A-Z]*$,Ituaçu
+^[^A-Z]*IUIU[^A-Z]*$,Iuiú
+^[^A-Z]*IUIÚ[^A-Z]*$,Iuiú
+^[^A-Z]*JACARACI[^A-Z]*$,Jacaraci
+^[^A-Z]*BOTUPORA[^A-Z]*$,Botuporã
+^[^A-Z]*BOTUPORÃ[^A-Z]*$,Botuporã
+^[^A-Z]*ITABUNA[^A-Z]*$,Itabuna
+^[^A-Z]*ILHEUS[^A-Z]*$,Ilhéus
+^[^A-Z]*ILHÉUS[^A-Z]*$,Ilhéus
+^[^A-Z]*JEQUIE[^A-Z]*$,Jequié
+^[^A-Z]*JEQUIÉ[^A-Z]*$,Jequié
+^[^A-Z]*IPIAU[^A-Z]*$,Ipiaú
+^[^A-Z]*IPIAÚ[^A-Z]*$,Ipiaú
+^[^A-Z]*GANDU[^A-Z]*$,Gandu
+^[^A-Z]*VALENCA[^A-Z]*$,Valença
+^[^A-Z]*VALENÇA[^A-Z]*$,Valença
+^[^A-Z]*LENÇÓIS[^A-Z]*$,Lençóis
+^[^A-Z]*LENCOIS[^A-Z]*$,Lençóis
+^[^A-Z]*ITAJUIPE[^A-Z]*$,Itajuípe
+^[^A-Z]*ITAJUÍPE[^A-Z]*$,Itajuípe
+^[^A-Z]*CAMACAN[^A-Z]*$,Camacan
+^[^A-Z]*URUCUCA[^A-Z]*$,Uruçuca
+^[^A-Z]*URUÇUCA[^A-Z]*$,Uruçuca
+^[^A-Z]*JAGUAQUARA[^A-Z]*$,Jaguaquara
+^[^A-Z]*WENCESLAU[^A-Z]+GUIMARAES[^A-Z]*$,Wenceslau Guimarães
+^[^A-Z]*WENCESLAU[^A-Z]+GUIMARÃES[^A-Z]*$,Wenceslau Guimarães
+^[^A-Z]*IBICARAI[^A-Z]*$,Ibicaraí
+^[^A-Z]*IBICARAÍ[^A-Z]*$,Ibicaraí
+^[^A-Z]*ITUBERA[^A-Z]*$,Ituberá
+^[^A-Z]*ITUBERÁ[^A-Z]*$,Ituberá
+^[^A-Z]*ITACARE[^A-Z]*$,Itacaré
+^[^A-Z]*ITACARÉ[^A-Z]*$,Itacaré
+^[^A-Z]*BUERAREMA[^A-Z]*$,Buerarema
+^[^A-Z]*UBAITABA[^A-Z]*$,Ubaitaba
+^[^A-Z]*UBATA[^A-Z]*$,Ubatã
+^[^A-Z]*UBATÃ[^A-Z]*$,Ubatã
+^[^A-Z]*AURELINO[^A-Z]+LEAL[^A-Z]*$,Aurelino Leal
+^[^A-Z]*CAMAMU[^A-Z]*$,Camamu
+^[^A-Z]*IBIRAPITANGA[^A-Z]*$,Ibirapitanga
+^[^A-Z]*COARACI[^A-Z]*$,Coaraci
+^[^A-Z]*ITAGIBA[^A-Z]*$,Itagibá
+^[^A-Z]*ITAGIBÁ[^A-Z]*$,Itagibá
+^[^A-Z]*SAO[^A-Z]+JOSE[^A-Z]+DA[^A-Z]+VITORIA[^A-Z]*$,São José da Vitória
+^[^A-Z]*SÃO[^A-Z]+JOSÉ[^A-Z]+DA[^A-Z]+VITÓRIA[^A-Z]*$,São José da Vitória
+^[^A-Z]*APUAREMA[^A-Z]*$,Apuarema
+^[^A-Z]*IBIRATAIA[^A-Z]*$,Ibirataia
+^[^A-Z]*FLORESTA[^A-Z]+AZUL[^A-Z]*$,Floresta Azul
+^[^A-Z]*TEOLANDIA[^A-Z]*$,Teolândia
+^[^A-Z]*TEOLÂNDIA[^A-Z]*$,Teolândia
+^[^A-Z]*CAIRU[^A-Z]*$,Cairu
+^[^A-Z]*IGRAPIUNA[^A-Z]*$,Igrapiúna
+^[^A-Z]*IGRAPIÚNA[^A-Z]*$,Igrapiúna
+^[^A-Z]*TAPEROA[^A-Z]*$,Taperoá
+^[^A-Z]*TAPEROÁ[^A-Z]*$,Taperoá
+^[^A-Z]*PIRAI[^A-Z]+DO[^A-Z]+NORTE[^A-Z]*$,Piraí do Norte
+^[^A-Z]*PIRAÍ[^A-Z]+DO[^A-Z]+NORTE[^A-Z]*$,Piraí do Norte
+^[^A-Z]*MANOEL[^A-Z]+VITORINO[^A-Z]*$,Manoel Vitorino
+^[^A-Z]*NOVA[^A-Z]+IBIA[^A-Z]*$,Nova Ibiá
+^[^A-Z]*NOVA[^A-Z]+IBIÁ[^A-Z]*$,Nova Ibiá
+^[^A-Z]*MARAU[^A-Z]*$,Maraú
+^[^A-Z]*MARAÚ[^A-Z]*$,Maraú
+^[^A-Z]*CANAVIEIRAS[^A-Z]*$,Canavieiras
+^[^A-Z]*ITAPE[^A-Z]*$,Itapé
+^[^A-Z]*ITAPÉ[^A-Z]*$,Itapé
+^[^A-Z]*JITAUNA[^A-Z]*$,Jitaúna
+^[^A-Z]*JITAÚNA[^A-Z]*$,Jitaúna
+^[^A-Z]*UNA[^A-Z]*$,Una
+^[^A-Z]*MARACAS[^A-Z]*$,Maracás
+^[^A-Z]*MARACÁS[^A-Z]*$,Maracás
+^[^A-Z]*BARRO[^A-Z]+PRETO[^A-Z]*$,Barro Preto
+^[^A-Z]*PAU[^A-Z]+BRASIL[^A-Z]*$,Pau Brasil
+^[^A-Z]*NILO[^A-Z]+PECANHA[^A-Z]*$,Nilo Peçanha
+^[^A-Z]*NILO[^A-Z]+PEÇANHA[^A-Z]*$,Nilo Peçanha
+^[^A-Z]*SANTA[^A-Z]+LUZIA[^A-Z]*$,Santa Luzia
+^[^A-Z]*DARIO[^A-Z]+MEIRA[^A-Z]*$,Dário Meira
+^[^A-Z]*DÁRIO[^A-Z]+MEIRA[^A-Z]*$,Dário Meira
+^[^A-Z]*ALMADINA[^A-Z]*$,Almadina
+^[^A-Z]*GONGOGI[^A-Z]*$,Gongogi
+^[^A-Z]*ITAJU[^A-Z]+DO[^A-Z]+COLONIA[^A-Z]*$,Itaju do Colônia
+^[^A-Z]*ITAJU[^A-Z]+DO[^A-Z]+COLÔNIA[^A-Z]*$,Itaju do Colônia
+^[^A-Z]*ITAPITANGA[^A-Z]*$,Itapitanga
+^[^A-Z]*LAJEDO[^A-Z]+DO[^A-Z]+TABOCAL[^A-Z]*$,Lajedo do Tabocal
+^[^A-Z]*MASCOTE[^A-Z]*$,Mascote
+^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+DA[^A-Z]+VITORIA[^A-Z]*$,Santa Cruz da Vitória
+^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+DA[^A-Z]+VITÓRIA[^A-Z]*$,Santa Cruz da Vitória
+^[^A-Z]*BREJOES[^A-Z]*$,Brejões
+^[^A-Z]*BREJÕES[^A-Z]*$,Brejões
+^[^A-Z]*ITAGI[^A-Z]*$,Itagi
+^[^A-Z]*AIQUARA[^A-Z]*$,Aiquara
+^[^A-Z]*SANTA[^A-Z]+INES[^A-Z]*$,Santa Inês
+^[^A-Z]*SANTA[^A-Z]+INÊS[^A-Z]*$,Santa Inês
+^[^A-Z]*JUSSARI[^A-Z]*$,Jussari
+^[^A-Z]*LAFAIETE[^A-Z]+COUTINHO[^A-Z]*$,Lafaiete Coutinho
+^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+ROCHA[^A-Z]*$,Barra do Rocha
+^[^A-Z]*CRAVOLANDIA[^A-Z]*$,Cravolândia
+^[^A-Z]*CRAVOLÂNDIA[^A-Z]*$,Cravolândia
+^[^A-Z]*ITAQUARA[^A-Z]*$,Itaquara
+^[^A-Z]*ITIRUCU[^A-Z]*$,Itiruçu
+^[^A-Z]*ITIRUÇU[^A-Z]*$,Itiruçu
+^[^A-Z]*ITAMARI[^A-Z]*$,Itamari
+^[^A-Z]*ARATACA[^A-Z]*$,Arataca
+^[^A-Z]*IRAMAIA[^A-Z]*$,Iramaia
+^[^A-Z]*BOA[^A-Z]+NOVA[^A-Z]*$,Boa Nova

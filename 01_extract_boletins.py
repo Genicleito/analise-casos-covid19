@@ -33,8 +33,9 @@ r.close()
 
 boletins_page = r.text.split("Boletim Epidemiológico – COVID-19")
 boletim_mais_recente = boletins_page[0].split("href=\"")[-1].split("\"")[0]
-boletins_sesab = sorted([boletim_mais_recente] + [x.split("href=\"")[1].split("\"")[0] for x in boletins_page[1:]], reverse=True)
-boletins_sesab
+#boletins_sesab = sorted([boletim_mais_recente] + [x.split("href=\"")[1].split("\"")[0] for x in boletins_page[1:]], reverse=True)
+boletins_sesab = [boletim_mais_recente] + [x.split("href=\"")[1].split("\"")[0] for x in boletins_page[1:]]
+print("Último boletim:", boletins_sesab[0])
 
 
 # In[6]:
@@ -79,6 +80,8 @@ for i, boletim in enumerate(boletins_sesab):
         print("[Info] - Baixando: {}".format(boletim))
         ant_name = b_name
         os.system("curl -C - " + boletim + " -o " + path + "raw/" + b_name)
+        if i == 0:
+            os.system("mkdir -p " + path + "last_boletim/; rm -rf " + path + "last_boletim/*; cp -p " + path + "raw/" + b_name + " " + path + "last_boletim/" + b_name)
 #     else:
 #         print("[Alert!] Ignorado link: {}".format(boletim))
 
