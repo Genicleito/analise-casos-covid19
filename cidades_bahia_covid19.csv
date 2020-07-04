@@ -582,3 +582,24 @@ regex,municipio
 ^[^A-Z]*ARATACA[^A-Z]*$,Arataca
 ^[^A-Z]*IRAMAIA[^A-Z]*$,Iramaia
 ^[^A-Z]*BOA[^A-Z]+NOVA[^A-Z]*$,Boa Nova
+^[^A-Z]*BREJOLÂNDIA[^A-Z]*$,Brejolândia
+^[^A-Z]*BREJOLANDIA[^A-Z]*$,Brejolândia
+^[^A-Z]*CANÁPOLIS[^A-Z]*$,Canápolis
+^[^A-Z]*CANAPOLIS[^A-Z]*$,Canápolis
+^[^A-Z]*CATURAMA[^A-Z]*$,Caturama
+^[^A-Z]*CONTENDAS[^A-Z]+DO[^A-Z]+SINCORÁ[^A-Z]*$,Contendas do Sincorá
+^[^A-Z]*CONTENDAS[^A-Z]+DO[^A-Z]+SINCORA[^A-Z]*$,Contendas do Sincorá
+^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*ÁVILA[^A-Z]*$,"Dias d'Ávila"
+^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*AVILA[^A-Z]*$,"Dias d'Ávila"
+^[^A-Z]*VÁRZEA[^A-Z]+DO[^A-Z]+POÇO[^A-Z]*$,Várzea do Poço
+^[^A-Z]*VARZEA[^A-Z]+DO[^A-Z]+POCO[^A-Z]*$,Várzea do Poço
+^[^A-Z]*SÍTIO[^A-Z]+DO[^A-Z]+MATO[^A-Z]*$,Sítio do Mato
+^[^A-Z]*SITIO[^A-Z]+DO[^A-Z]+MATO[^A-Z]*$,Sítio do Mato
+^[^A-Z]*RIO[^A-Z]+DE[^A-Z]+CONTAS[^A-Z]*$,Rio de Contas
+^[^A-Z]*PLANALTINO[^A-Z]*$,Planaltino
+^[^A-Z]*LAJEDINHO[^A-Z]*$,Lajedinho
+^[^A-Z]*LAGOA[^A-Z]+REAL[^A-Z]*$,Lagoa Real
+^[^A-Z]*IRAJUBA[^A-Z]*$,Irajuba
+^[^A-Z]*IPUPIARA[^A-Z]*$,Ipupiara
+^[^A-Z]*IBITITÁ[^A-Z]*$,Ibititá
+^[^A-Z]*IBITITA[^A-Z]*$,Ibititá
