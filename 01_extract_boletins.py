@@ -84,6 +84,8 @@ for i, boletim in enumerate(boletins_sesab):
             print("ALERT | Adicionando data [{}] ao arquivo: {}".format(date_atual, b_name))
             # b_name = b_name.replace(".pdf", "__" + date_atual + ".pdf")
             b_name = "_".join(b_name.split("_")[:-1]) + date_atual + ".pdf"
+            if "_BAHIAN_" not in b_name:
+                b_name = b_name.replace("_BAHIAN", "_BAHIAN_")
             print("\tArquivo com a data:", b_name)
             
         print("[Info] - Baixando: {}".format(boletim))
