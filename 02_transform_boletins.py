@@ -165,7 +165,6 @@ df_full = df_full[~ df_full['municipio'].str.contains('(^|[^A-z]+)TOTAL($|[^A-z]
 
 df_nomes_cidades = pd.read_csv("cidades_bahia_covid19.csv")
 
-df_full['municipio_original'] = df_full['municipio']
 for i in range(df_nomes_cidades.shape[0]):
     exp = df_nomes_cidades['regex'].iloc[i]
     name = df_nomes_cidades['municipio'].iloc[i]
@@ -210,7 +209,7 @@ def create_recovered(df):
 
 df_full = create_recovered(df_full)
 
-d_cols = ['date', 'municipio', 'municipio_original', 'porcentagem', 'coef_incidencia_100k_hab', 'taxa_letalidade']
+d_cols = ['date', 'municipio', 'porcentagem', 'coef_incidencia_100k_hab', 'taxa_letalidade']
 for col in df_full.columns:
     if col not in d_cols:
         df_full[col] = df_full[col].astype(int)
