@@ -1,0 +1,504 @@
+"x"
+"1" "Nº 54 - 17/05/2020"
+"2" "                                                    Situação Epidemiológica Atual
+Na Bahia, o primeiro caso foi confirmado em 06/03/2020, nove dias após a confirmação do primeiro caso do Brasil, que ocorreu em
+26/02/2020. A partir de então, já foram confirmados laboratorialmente 7.548 (13,59%) casos, pelo critério clínico-epidemiológico
+496 (0,89%), e teste rápido 399 (0,72%) totalizando 8.443 (15,20%) casos, dentre o total de 55.541 notificados, com descarte de
+23.511 (42,33%) casos por critério laboratorial. Permanecem em investigação epidemiológica 23.587 (42,47%) casos (Tabela 1).
+                 Tabela 1. Distribuição dos casos de COVID-19, segundo situação da investigação. Bahia, 2020*.
+                                      Classificação                                 Casos
+                                                                            N                    %
+                            Confirmados laboratorialmente                 7548                 13,59
+                          Confirmados clínico epidemiológica               496                  0,89
+                                Confirmados teste rápido                   399                  0,72
+                                    Total confirmados                     8443                 15,20
+                                      Descartados                        23511                 42,33
+                                     Em investigação                     23587                 42,47
+                                           Total                         55541                  100
+                       Fonte: e-SUS-Ve/ Divep e GAL/Lacen, dados obtidos em 17/05/2020, sujeito a alterações.
+A partir de 27 de março de 2020 a plataforma REDCAP não permitiu mais a inclusão de novos casos suspeitos da COVID-19. As
+notificações de novos casos passaram a ser feitas na nova plataforma: http://notifica.saude.gov.br.
+O Ministério da Saúde reforça a importância da NOTIFICAÇÃO IMEDIATA dos casos de Síndrome Gripal (SG) leve no e-SUS VE,
+link (https://nofica.saude.gov.br/login) e dos casos de Síndrome Respiratória Aguda Grave (SRAG) hospitalizados no Sistema de
+Informação de Vigilância da Gripe (SIVEP-Gripe), link: https://sivepgripe.saude.gov.br/sivepgripe/login.html.
+Desde 14 de maio de 2020, a Secretaria da Saúde do Estado da Bahia realizou o linkage (co-relação) dos três sistemas oficiais do
+Ministério da Saúde (e-SUS VE, GAL e SIVEPGRIPE) para os casos confirmados de COVID-19, que são a fonte de elaboração dos
+boletins epidemiológicos diários.
+No entanto, neste domingo (17 de maio), o sistema Esus-Ve do Ministério da Saúde passou por um processo de atualização que
+impossibilita novamente o acesso às informações nominais notificadas pelas unidades de saúde.
+Limitações
+O processo de atualização das informações nos municípios e Estado é dinâmico e complexo. Os dados informados diariamente são
+sujeitos a alterações. Considerando a pluralidade de cada município no que diz respeito a porte populacional, infraestrutura e
+organização dos serviços de saúde, além de todos os desafios que a pandemia de COVID-19 impõe, é possível que haja
+mudanças no número de casos ou óbitos em decorrência de inconsistências ou atrasos no repasse das informações ao Estado.
+Os casos notificados entre o município e o Estado podem sofrer alterações. Isso acontece porque o município de notificação não é
+necessariamente o mesmo local de residência do caso ou óbito notificado. Assim, ao concluir o processo de investigação de cada
+notificação individualmente, cabe às Secretarias Municipais a atualização do Esus-Ve (https://notifica.saude.gov.br/notificacoes).
+Ressalta-se que é de responsabilidade dos municípios a correção das inconsistências verificadas, relativas aos seus municípios,
+nos boletins epidemiológicos, uma vez que a Vigilância Estadual utiliza os dados informados pelos próprios municípios (prefeituras
+e unidades de saúde) na base do e-SUS VE. Reiteramos o conpromisso em apresentar dados fidedignos ao eliminar as
+duplicidades das bases nacionais e outros tipos de inconsistências.
+Vale ressaltar que os casos e óbitos registrados são atualizados por data de notificação.
+                                                            Página 2/13
+"
+"3" "Na Figura 1, observa-se que no período de 27/03 a 17/05/2020 houve um aumento do número de casos confirmados
+laboratorialmente de COVID-19 na Bahia, com incremento de 6.439,84 casos no período.
+   Figura 1. Distribuição do acumulado de casos confirmados por Covid-19 por data da confirmação laboratorial. Bahia,
+                                                    27/03/2020 a 17/05/2020.
+Até 17/05/2020, no Estado da Bahia, o coeficiente de incidência foi de 567,67/ 1.000.000 habitantes. Quanto ao sexo dos casos
+confirmados, 43,29% foi do sexo masculino, 32,95% do sexo feminino e 23,76% sexo não foi informado. A faixa etária mais
+acometida foi a de 30 a 39 anos, representando 26,87% do total. O coeficiente de incidência por 1.000.000 de habitantes foi maior
+na faixa etária de 80 e mais (1.014,83/1.000.000 habitantes), indicando que o risco de adoecer foi maior nesta faixa etária, seguida
+da faixa de 30 a 39 anos 989,05/1.000.000 habitantes). (Quadro 1). Ressalta-se que os coeficientes de incidência passaram a ser
+calculados por 1.000.000 de habitantes, conforme padronização recomendada pelo Ministério da Saúde, para possibilitar
+comparação com dados internacionais dos dados.
+  Quadro 1. Distribuição proporcional dos casos confirmados de COVID-19 e coeficiente de incidência (por 1.000.000 hab)
+                                                  por faixa etária. Bahia, 2020*.
+            Faixa etária            Casos             %               Pop.            Coef Incid./1.000.000
+                 <1                    37           0,44             221448                  167,08
+                1a4                    45           0,53             902701                   49,85
+                5a9                    56           0,66            1260143                   44,44
+               10 a 19                214           2,53            2821346                   75,85
+               20 a 29               1027          12,16            2781778                  369,19
+               30 a 39               2269          26,87            2294120                  989,05
+               40 a 49               1690          20,02            1789028                  944,65
+               50 a 59                985          11,67            1266810                  777,54
+               60 a 69                577           6,83             819344                  704,22
+               70 a 79                305           3,61             465073                  655,81
+                80 e+                 255           3,02             251273                 1.014,83
+              ignorado                983          11,64               0                       0,00
+                Total                8443           100            14873064                  567,67
+                                                          Página 3/13
+"
+"4" "Os casos confirmados ocorreram em 205 municípios do Estado, com maior proporção em Salvador (62,96%). Destaca-se que há
+34 casos confirmados de outros estados que foram atendidos na Bahia. Os municípios com os maiores coeficientes de incidência
+por 1.000.000 habitantes foram Uruçuca (3.070,33) , Itabuna (2.973,41), Ipiaú (2.790,31), Ilhéus (2.316,31) e Salvador (1.851,10)
+(Quadro 2).
+Quadro 2. Número de casos confirmados, proporção e coeficiente de incidência de Covid-19 por município de residência.
+Bahia, 2020*.
+  Nº    Município           Confirmados Confirmados Confirmados Total confi        %      População      Coef. de  Nº de dias após
+                             Laboratorial Clinico Epide   Teste      rmados                            Incidência/        o
+                               mente       miologico     Rápido                                         1.000.000    último caso
+                                                                                                            hab      confirmado
+   1    ABAÍRA                    1              3          0           4         0,05        8739        457,72          2
+   2    ACAJUTIBA                 1              0          0           1         0,01       15159         65,97          25
+   3    ADUSTINA                  1              0          0           1         0,01       17040         58,69          41
+   4    ÁGUA FRIA                 2              0          0           2         0,02       16970        117,86          2
+   5    AIQUARA                   3              0          0           3         0,04        4446        674,76          8
+   6    ALAGOINHAS               18              0          0          18         0,21      151596        118,74          0
+   7    ALMADINA                  1              0          1           2         0,02        5464        366,03          24
+   8    AMARGOSA                  3              0          0           3         0,04       37241         80,56          3
+   9    AMÉLIA RODRIGUES          6              0          0           6         0,07       25102        239,02          2
+  10    ANAGÉ                     1              0          0           1         0,01       22005         45,44          3
+  11    ANGUERA                   1              0          0           1         0,01       11221         89,12          7
+  12    ARAÇAS                    1              0          0           1         0,01       12177         82,12          3
+  13    ARACATU                   4              0          0           4         0,05       13135        304,53          2
+  14    ARACI                     1              0          0           1         0,01       54379         18,39          38
+  15    ARATACA                   3              0          0           3         0,04       11019        272,26          2
+  16    AURELINO LEAL             2              0          2           4         0,05       11531        346,89          2
+  17    BANZAÊ                    1              0          0           1         0,01       13229         75,59          2
+  18    BARRA                     3              0          0           3         0,04       53578         55,99          2
+  19    BARRA DO CHOÇA            5              0          0           5         0,06       31603        158,21          2
+  20    BARRA DO ROCHA            3              0          0           3         0,04        5714        525,03          41
+  21    BARREIRAS                 8              0          0           8         0,09      155439         51,47          1
+  22    BARRO PRETO               3              0          0           3         0,04        5591        536,58          20
+  23    BARROCAS                  2              0          1           3         0,04       15978        187,76          7
+  24    BELMONTE                  2              0          0           2         0,02       23328         85,73          38
+  25    BOA VISTA DO              1              0          0           1         0,01       18576         53,83          10
+        TUPIM
+  26    BOQUIRA                   1              0          0           1         0,01       21508         46,49          4
+  27    BRUMADO                   8              2          0          10         0,12       67195        119,06          37
+  28    BUERAREMA                27              0          2          29         0,34       18349       1.580,47         2
+  29    CABACEIRAS DO             1              0          0           1         0,01       18807         53,17          2
+        PARAGUAÇU
+  30    CACHOEIRA                 3              0          0           3         0,04       33470         89,63          8
+  31    CAETANOS                  2              0          0           2         0,02       14542        137,53          2
+  32    CAIRU                     1              0          9          10         0,12       18176        550,18          5
+  33    CALDEIRÃO                 2              0          0           2         0,02       13327        150,07          18
+        GRANDE
+  34    CAMACAN                  19              0          3          22         0,26       31988        687,76          2
+  35    CAMAÇARI                 66             23          6          95         1,12      299132        317,59          2
+  36    CAMAMU                    3              0          1           4         0,05       35316        113,26          2
+  37    CAMPO ALEGRE DE           5              0          2           7         0,08       28798        243,07          2
+        LOURDES
+  38    CAMPO FORMOSO             1              0          0           1         0,01       71206         14,04          40
+  39    CANARANA                  4              0          1           5         0,06       26176        191,01          55
+  40    CANAVIEIRAS              17              0          0          17         0,20       31099        546,64          13
+  41    CANDEIAS                 41              6         29          76         0,90       87076        872,80          0
+  42    CANSANÇÃO                 1              0          0           1         0,01       34834         28,71          37
+  43    CAPELA DO ALTO            1              0          0           1         0,01       11637         85,93          7
+        ALEGRE
+  44    CAPIM GROSSO              4              2          6          12         0,14       30662        391,36          6
+  45    CASTRO ALVES              4              1          6          11         0,13       26264        418,82          4
+  46    CATU                     11              0          1          12         0,14       54704        219,36          2
+  47    COARACI                  25              0          0          25         0,30       16993       1.471,19         2
+  48    CONCEIÇÃO DA              2              0          0           2         0,02       22581         88,57          1
+        FEIRA
+  49    CONCEIÇÃO DO              1              0          0           1         0,01       17247         57,98          2
+        ALMEIDA
+  50    CONCEIÇÃO DO              4              2          0           6         0,07       66612         90,07          2
+        COITÉ
+  51    CONCEIÇÃO DO              5              0          0           5         0,06       33153        150,82          1
+        JACUÍPE
+  52    CONDE                     1              0          0           1         0,01       25837         38,70          51
+  53    CORAÇÃO DE                2              0          0           2         0,02       22605         88,48          9
+        MARIA
+  54    CRAVOLÂNDIA               2              0          0           2         0,02        5349        373,90          2
+                                                         Página 4/13
+"
+"5" "55  CRISTÓPOLIS         2  0    0          2 0,02 13910   143,78  1
+56  CRUZ DAS ALMAS      6  0    1          7 0,08 63239   110,69  2
+57  CURAÇÁ             12  0    1         13 0,15 34700   374,64  16
+58  DÁRIO MEIRA         3  0    0          3 0,04 10710   280,11  7
+59  DIAS DÁVILA        15  1    0         16 0,19 81089   197,31  2
+60  DOM BASÍLIO         2  0    0          2 0,02 12199   163,95  7
+61  ENCRUZILHADA        1  0    0          1 0,01 17006    58,80  5
+62  ENTRE RIOS          1  0    0          1 0,01 41780    23,93  6
+63  EUCLIDES DA         2  0    0          2 0,02 60585    33,01  2
+    CUNHA
+64  EUNÁPOLIS          34  6    4         44 0,52 113380  388,08  2
+65  FEIRA DE SANTANA   207 0    0        207 2,45 614872  336,66  0
+66  FLORESTA AZUL       3  0    0          3 0,04 10629   282,25  2
+67  GANDU               3  0    0          3 0,04 32403    92,58  2
+68  GONGOGI             6  0    0          6 0,08  7128   841,75  2
+69  GOVERNADOR          1  0    0          1 0,01 20722    48,26  15
+    MANGABEIRA
+70  GUARATINGA          1  0    0          1 0,01 20843    47,98  17
+71  IAÇU                4  0    0          4 0,05 24305   164,58  2
+72  IBICARAÍ            5  0    4          9 0,11 21689   414,96  2
+73  IBIRAPITANGA        2  1    0          3 0,04 23375    85,56  2
+74  IBIRATAIA          10  0    0         10 0,12 15312   653,08  2
+75  IBOTIRAMA           1  0    0          1 0,01 26927    37,14  22
+76  ILHÉUS             371 0    5        376 4,45 162327 2.316,31 2
+77  IPECAETÁ            1  0    0          1 0,01 14487    69,03  1
+78  IPIAÚ              108 0   20        128 1,52 45873  2.790,31 5
+79  IPIRÁ               4  0    0          4 0,05 59595    67,12  25
+80  IRARÁ               1  0    0          1 0,01 29034    34,44  6
+81  IRECÊ               1  0    4          5 0,06 72967    68,52  4
+82  ITABELA             1  0    0          1 0,01 30584    32,70  27
+83  ITABERABA           7  0    0          7 0,08 64489   108,55  2
+84  ITABUNA            566 0   68        634 7,51 213223 2.973,41 0
+85  ITACARÉ             8  0    0          8 0,09 28296   282,73  2
+86  ITAGI               2  0    0          2 0,02 12351   161,93  2
+87  ITAGIBÁ            13  0    1         14 0,17 14579   960,29  2
+88  ITAJUÍPE           28  0    0         28 0,33 20491  1.366,45 3
+89  ITAMARAJU          10  0    4         14 0,17 64486   217,10  2
+90  ITAPARICA           3  0    0          3 0,04 22228   134,96  2
+91  ITAPÉ               2  0    0          2 0,02  8761   228,28  11
+92  ITAPEBI             5  0    0          5 0,06 10259   487,38  30
+93  ITAPETINGA          9  0    0          9 0,11 76147   118,19  15
+94  ITAPICURU           2  0    0          2 0,02 35576    56,22  7
+95  ITAPITANGA          0  0    1          1 0,01 10313    96,96  3
+96  ITARANTIM           1  0    0          1 0,01 19747    50,64  3
+97  ITATIM              1  3    2          6 0,07 14487   414,16  8
+98  ITORORÓ             4  0    0          4 0,05 20382   196,25  43
+99  ITUBERÁ             1  2    0          3 0,04 28602    69,93  14
+100 JACOBINA            4  0    4          8 0,09 80518    99,36  2
+101 JAGUAQUARA         14  0    1         15 0,18 54423   275,62  0
+102 JAGUARARI           3  0    0          3 0,04 33570    89,37  2
+103 JEQUIÉ             96  0   57        153 1,81 155966  980,98  0
+104 JITAÚNA             1  0    0          1 0,01 11166    89,56  11
+105 JUAZEIRO           14  0   12         26 0,31 216707  119,98  2
+106 JUSSARI             1  0    0          1 0,01  5833   171,44  16
+107 JUSSIAPE            1  0    0          1 0,01  6186   161,66  14
+108 LAFAIETE            1  0    0          1 0,01  3724   268,53  2
+    COUTINHO
+109 LAJE                1  2    1          4 0,05 23840   167,79  8
+110 LAJEDO DO           6  0    0          6 0,07  8562   700,77  2
+    TABOCAL
+111 LAURO DE FREITAS   182 1    6        189 2,24 198440  952,43  2
+112 LICÍNIO DE ALMEIDA  1  0    4          5 0,06 12388   403,62  4
+113 LIVRAMENTO DE       2  1    0          3 0,04 45732    65,60  2
+    NOSSA SENHORA
+114 LUÍS EDUARDO        5  0    0          5 0,06 87519    57,13  2
+    MAGALHÃES
+115 MADRE DE DEUS       6  0    0          6 0,07 21093   284,45  2
+116 MANOEL VITORINO     2  0    0          2 0,02 13240   151,06  5
+117 MARACÁS             3  0    0          3 0,05 20834   144,00  2
+118 MARAGOGIPE          6  0    1          7 0,08 44677   156,68  2
+119 MARAÚ               3  1    0          4 0,05 20570   194,46  2
+120 MATA DE SÃO JOÃO   20  2    1         23 0,27 46583   493,74  2
+121 MEDEIROS NETO       3  0    1          4 0,05 22688   176,30  1
+122 MIRANGABA           0  0    2          2 0,02 18338   109,06  2
+123 MIRANTE             1  0    0          1 0,01  8641   115,73  26
+124 MONTE SANTO         1  0    0          1 0,01 49418    20,24  1
+125 MORPARÁ             5  0    0          5 0,06  8519   586,92  2
+126 MORRO DO CHAPÉU     1  0    0          1 0,01 35413    28,24  4
+127 MUCUGÊ              1  3    0          4 0,05  9062   331,05  2
+128 MUCURI              1  0    3          4 0,05 41748    95,81  3
+                             Página 5/13
+"
+"6" "129 MURITIBA           1   0     0          1  0,01   29399    34,01  3
+130 NAZARÉ             1   0     0          1  0,01   28525    35,06  14
+131 NILO PEÇANHA       2   0     1          3  0,04   13997   214,33  10
+132 NORDESTINA         2   0     0          2  0,02   13130   152,32  11
+133 NOVA IBIÁ          0   0     1          1  0,01    6591   151,72  2
+134 NOVA SOURE         3   1     1          5  0,06   26947   185,55  6
+135 NOVA VIÇOSA        4   0     1          5  0,06   43376   115,27  2
+136 OLIVEIRA DOS       6   0     0          6  0,07   21825   274,91  2
+    BREJINHOS
+137 OURIÇANGAS         1   0     0          1  0,01    8564   116,77  5
+138 PALMEIRAS          1   0     0          1  0,01    9019   110,88  41
+139 PARAMIRIM          3   0     0          3  0,04   21607   138,84  8
+140 PAU BRASIL         8   0     1          9  0,11    9831   915,47  0
+141 PAULO AFONSO      11   0     0         11  0,13   117782   93,39  0
+142 PIATÃ              0   0     1          1  0,01   17123    58,40  2
+143 PILÃO ARCADO       1   0     0          1  0,01   35048    28,53  14
+144 PIRIPÁ             1   0     0          1  0,01   10707    93,40  42
+145 POJUCA             6   0     0          6  0,07   39519   151,83  3
+146 PONTO NOVO         1   0     0          1  0,01   14914    67,05  2
+147 PORTO SEGURO      45   0     0         45  0,53   148686  302,65  3
+148 POTIRAGUÁ          1   0     0          1  0,01    7224   138,43  8
+149 PRADO              5   0     0          5  0,06   28174   177,47  5
+150 PRESIDENTE DUTRA   1   0     0          1  0,01   15142    66,04  7
+151 PRESIDENTE JÂNIO   1   0     0          1  0,01   12338    81,05  2
+    QUADROS
+152 PRESIDENTE         1   0     0          1  0,01   27719    36,08  7
+    TANCREDO NEVES
+153 QUEIMADAS          1   0     0          1  0,01   25439    39,31  0
+154 QUIXABEIRA         1   0     0          1  0,01    8972   111,46  6
+155 RAFAEL JAMBEIRO    5   0     0          5  0,06   22621   221,03  6
+156 REMANSO            6   0     0          6  0,07   41008   146,31  2
+157 RETIROLÂNDIA       5   0     0          5  0,06   14396   347,32  5
+158 RIBEIRA DO         8   0     0          8  0,09   53807   148,68  2
+    POMBAL
+159 RIO DO PIRES       2   0     0          2  0,02   11655   171,60  30
+160 RIO REAL           3   0     0          3  0,04   40732    73,65  2
+161 RODELAS            1   0     0          1  0,01    9331   107,17  6
+162 RUY BARBOSA        1   0     0          1  0,01   30814    32,45  4
+163 SALVADOR         4834 414   69        5317 62,96 2872347 1.851,10 0
+164 SANTA BÁRBARA      9   0     0          9  0,11   20791   432,88  2
+165 SANTA CRUZ        15   0     0         15  0,18   27778   540,00  13
+    CABRÁLIA
+166 SANTA LUZIA        3   0     0          3  0,04   12597   238,15  4
+167 SANTA MARIA DA     1   0     0          1  0,01   39845    25,10  3
+    VITÓRIA
+168 SANTA TERESINHA    2   1     0          3  0,04   10405   288,32  15
+169 SANTALUZ           3   0     0          3  0,04   37348    80,33  2
+170 SANTANÓPOLIS       2   0     0          2  0,02    8943   223,64  5
+171 SANTO AMARO        4   0     1          5  0,06   60069    83,24  5
+172 SANTO ANTÔNIO DE   3   0     0          3  0,04   101512   29,55  4
+    JESUS
+173 SANTO ESTÊVÃO      1   0     0          1  0,01   52850    18,92  5
+174 SÃO DESIDÉRIO      4   0     0          4  0,05   33742   118,55  0
+175 SÃO DOMINGOS       1   0     0          1  0,01    9058   110,40  52
+176 SÃO FELIPE         2   0     0          2  0,02   21074    94,90  12
+177 SÃO FRANCISCO DO  13   0     0         13  0,15   39802   326,62  2
+    CONDE
+178 SÃO GONÇALO DOS    2   0     0          2  0,02   37550    53,26  7
+    CAMPOS
+179 SÃO JOSÉ DA        2   0     0          2  0,02    5657   353,54  21
+    VITÓRIA
+180 SÃO SEBASTIÃO DO   9   0     0          9  0,11   44300   203,16  2
+    PASSÉ
+181 SÁTIRO DIAS        2   0     0          2  0,02   17273   115,79  15
+182 SAUBARA            1   0     0          1  0,01   12043    83,04  15
+183 SEABRA             1   0     0          1  0,01   44091    22,68  4
+184 SENHOR DO          1   0     0          1  0,01   79015    12,66  6
+    BONFIM
+185 SERRA DO           2   0     1          3  0,04   31472    95,32  15
+    RAMALHO
+186 SERRA PRETA        1   0     0          1  0,01   14878    67,21  25
+187 SERRINHA           6   0     0          6  0,07   80861    74,20  6
+188 SIMÕES FILHO      49   1    11         61  0,72   134377  453,95  0
+189 SOBRADINHO         1   0     1          2  0,02   23191    86,24  3
+190 TAPEROÁ            8   0     0          8  0,09   21074   379,61  2
+191 TEIXEIRA DE       16  12    16         44  0,52   160487  274,17  0
+    FREITAS
+192 TUCANO             1   0     0          1  0,01   50687    19,73  11
+193 UBAITABA           6   0     0          6  0,07   19056   314,86  2
+194 UBATÃ              8   0     0          8  0,09   27035   295,91  2
+                              Página 6/13
+"
+"7" "  195   UMBURANAS                1               2           2           5         0,06     19222       260,12        2
+  196   UNA                      7               0           0           7         0,08     19002       368,38        2
+  197   URUÇUCA                 53               0          10          63         0,75     20519      3.070,33       0
+  198   UTINGA                   1               0           0           1         0,01     19178        52,14        42
+  199   VALENÇA                  8               2           0          10         0,12     96562       103,56        2
+  200   VALENTE                  8               0           0           8         0,09     28473       280,97        2
+  201   VÁRZEA DA ROÇA           1               0           0           1         0,01     14104        70,90        0
+  202   VÁRZEA NOVA              1               0           0           1         0,01     12697        78,76        16
+  203   VERA CRUZ                7               0           0           7         0,08     43223       161,95        2
+  204   VEREDA                   2               0           0           2         0,02      6205       322,32        0
+  205   VITÓRIA DA              66               1           0          67         0,79    338480       197,94        2
+        CONQUISTA
+  206   Outros Estados          33               0           1          34         0,40       0          0,00         0
+  207   Municipios novos com    15               0           0          15         0,18       0          0,00         5
+        LPI diferente da
+        residência*
+                TOTAL          7551            496          396        8443        100   205626159       41,06        0
+*Os municípios Amargosa (02) , Bom Jesus da Lapa , Cristópolis ,Miguel Calmon, Ponto Novo, Maragojipe, Mirante,Muritiba, Ruy
+Barbosa, Inhambupe, Saubara e Saúde (01) com Local Provável de Infecção (LPI) em Salvador;
+*Vereda (01) caso com (LPI) em Ilhéus; *Alagoinhas com LPI em Recife *Cruz das Almas (01) caso com (LPI) no Rio de Janeiro;
+*Após a investigação epidemiológica foi identificado que 01 paciente que foi confirmado no dia 03/05/2020 em Seabra é
+Residente do Estado do Tocantins;
+*O caso confirmado de Guaratinga teve como LPI o município de Ipiaú;
+          Figura 2. Número de casos confirmados, de Covid-19 por profissionais de saúde. Bahia, 2020*.
+                             Dos 8.443 casos confirmados, 1.073 foram de profissionais de saúde.
+                                                          Página 7/13
+"
+"8" "                      Figura 3. Distribuição espacial por número de casos confirmados de Covid-19. Bahia, 2020*.
+Taxa de Ocupação de leitos
+Recuperados
+Dos 8.443 casos confirmados, 2.199 já encontram-se recuperados e 5.949 casos encontram-se ativos.
+LACEN
+O LACEN realizou no período de 01/03/2020 a 17/05/2020 às 13:00hs o total de 34.723 exames de vírus respiratórios cujos
+resultados já foram liberados. No momento HA 3.874 exames em análise. Ressalta-se que o aumento do número em análise refere-
+se a uma ação realizada no sul do Estado.
+Óbitos
+Até o momento, foram confirmados 295 óbitos confirmados por COVID-19 no Estado da Bahia. O Quadro 3 apresenta a descrição
+desses óbitos por município de residência e o Quadro 4 por município de ocorrência. O percentual de letalidade é de 3,49%. Dentre
+os óbitos, 58,31% ocorreram no sexo masculino. A mediana de idade dos óbitos foi de 67 anos, variando de 07 dias a 97 anos. O
+percentual de pessoas com comorbidade foi de 85,08%, , com maior percentual de doenças cardíacas crônicas (62,15%). (Figura
+7).
+                                                          Página 8/13
+"
+"9" "Quadro 3. Distribuição dos óbitos confirmados de COVID-19, por município de residência. Bahia, 2020*.
+             N      Municípios                                                    Nº de óbitos
+             1      ADUSTINA                                                             1
+             2      ÁGUA FRIA                                                            1
+             3      ALAGOINHAS                                                           1
+             4      ANAGÉ                                                                1
+             5      ARACI                                                                1
+             6      BELMONTE                                                             1
+             7      BUERAREMA                                                            3
+             8      CAMAÇARI                                                             4
+             9      CAPIM GROSSO                                                         3
+            10      CATU                                                                 1
+            11      COARACI                                                              1
+            12      FEIRA DE SANTANA                                                     2
+            13      GANDU                                                                1
+            14      GONGOGI                                                              2
+            15      IBIRATAIA                                                            1
+            16      ILHÉUS                                                              19
+            17      IPIAÚ *                                                              3
+            18      ITABERABA                                                            1
+            19      ITABUNA                                                             11
+            20      ITAGIBÁ                                                              1
+            21      ITAPÉ                                                                1
+            22      ITAPETINGA                                                           2
+            23      ITARANTIM                                                            1
+            24      JACOBINA                                                             1
+            25      JEQUIÉ                                                               3
+            26      JITAÚNA                                                              1
+            27      JUAZEIRO                                                             2
+            28      LAURO DE FREITAS                                                     5
+            29      MARAGOGIPE                                                           1
+            30      MARAÚ                                                                1
+            31      MIRANTE                                                              1
+            32      MUNDO NOVO*                                                          1
+            33      MURITIBA                                                             1
+            34      NILO PEÇANHA                                                         1
+            35      PARAMIRIM                                                            1
+            36      PORTO SEGURO                                                         1
+            37      RIBEIRA DO POMBAL                                                    1
+            38      SALVADOR*                                                          189
+            39      SÃO FRANCISCO DO CONDE                                               1
+            40      SÃO SEBASTIÃO DO PASSÉ                                               1
+            41      SEABRA                                                               1
+            42      SIMÕES FILHO                                                         3
+            43      UBAITABA                                                             1
+            44      URUÇUCA                                                              5
+            45      UTINGA                                                               1
+            46      VÁRZEA DA ROÇA                                                       1
+            47      VERA CRUZ                                                            1
+            48      VEREDA                                                               1
+            49      VITÓRIA DA CONQUISTA                                                 4
+            50      RIO DE JANEIRO/RIO DE JANEIRO                                        1
+            51      RIO GRANDE DO SUL/CAXIAS DO SUL                                      1
+           Total                                                                       295
+                                           Página 9/13
+"
+"10" "Quadro 4. Distribuição dos óbitos confirmados de COVID-19, por município de ocorrência. Bahia, 2020*.
+             N      Municípios                                                     Nº de óbitos
+             1      ALAGOINHAS                                                           1
+             2      ANAGÉ                                                                1
+             3      ARACI                                                                1
+             4      CAMAÇARI                                                             2
+             5      CANDEIAS                                                             1
+             6      CAPIM GROSSO                                                         2
+             7      FEIRA DE SANTANA                                                     1
+             8      IBIRATAIA                                                            1
+             9      ILHÉUS*                                                             27
+             10     ITABERABA                                                            1
+             11     ITABUNA                                                             18
+             12     ITAPETINGA                                                           2
+             13     JEQUIÉ                                                               3
+             14     JUAZEIRO                                                             2
+             15     LAURO DE FREITAS                                                     4
+             16     PORTO SEGURO                                                         2
+             17     RIBEIRA DO POMBAL                                                    1
+             18     SALVADOR*                                                          213
+             19     SÃO SEBASTIÃO DO PASSÉ                                               1
+             20     SIMÕES FILHO                                                         2
+             21     UTINGA                                                               1
+             22     VÁRZEA DA ROÇA                                                       1
+             23     VITÓRIA DA CONQUISTA                                                 7
+           Total                                                                       295
+    Figura 4. Distribuição dos óbitos confirmados de COVID-19, segundo faixa etária. Bahia, 2020*
+                                            Página 10/13
+"
+"11" "         Figura 5. Distribuição dos óbitos acumulados de COVID-19, por dia. Bahia, 2020*
+        Figura 6. Distribuição dos óbitos confirmados de COVID-19, por dia. Bahia, 2020*
+Figura 7. Distribuição dos óbitos confirmados de COVID-19, segundo comorbidades. Bahia, 2020*
+                                           Página 11/13
+"
+"12" "Editorial Boletim COVID-19
+Diretoria de Vigilância Epidemiológica (DIVEP)– Dra. Márcia São
+Pedro Leal Souza
+                                                                    Jamile Oliveira Lima
+Coordenador Executivo de Gestão de Tecnologia da Informação         Jocélia Borges Pereira
+e Comunicação (CGTIC) – Diego Cavalcante Teixeira Daltro            Joselito Ramos de Andrade
+                                                                    Joyce Naiana de Paiva Lima
+Coordenação de Informações Estratégicas de Vigilância em            Jucilene Costa de Assunção Santos
+Saúde - CIEVS – Ramon Saavedra                                      Juniarley Fernandes de Souza
+                                                                    Lara Matos Santos
+                                                                    Liane Santiago Andrade
+                                                                    Libiene Lopes da Costa
+Elaboração de boletim                                               Luciana de Freitas Caribe
+                                                                    Luciana Guimarães Monteiro
+Ada Antonelli da Silva Tittoni                                      Marcelo Costa Brandão Júnior
+Adriana de Magalhães Dourado                                        Marcio Luis Valença Araujo
+Adriana Dourado de Carvalho                                         Maria Claudia Jesus dos Santos Barros
+Alba Regina de Souza                                                Maria Fontenele
+Aldacy Matos de Andrade                                             Maria Raquel Aquino Lima Soares
+Aline Anne Ferreira de Deus                                         Marilda Moutinho Fahel
+Aliucha Magalhães Santos Fontes                                     Marta Santana Lima Pereira
+Amanda dos Santos Nascimento                                        Moacir Santana Jorge Filho
+Amélia Fernanda Moraes da Silva                                     Nadima Mafra Chukr Conrado
+Ana Claudia Fernandes Nunes da Silva                                Pedro Henrique Presta Dias
+Ana de Fatima Cardoso Nunes                                         Renato Queiroz
+Ana Franceska Cotrim Silva                                          Ricardo Jose Sales Sobreira
+Ana Paula Freire Cruz                                               Rodrigo Alves Vaz
+Analice Matias Espírito Santo                                       Sandra Maria de Oliveira da Purificação
+Andréa Uiara Soares Silva                                           Sérgio Ricardo Valverde Souza
+Anete Alves Bomfim                                                  Simone Portugal Caldas
+Arlene Maria de Jesus                                               Sylvia Karina Brandão Rosa Correia
+Carla de Matos Santos                                               Tassiany Trindade
+Carla Taiana Cointeiro Bressy                                       Tatiana Cerqueira Machado Medrado
+Caroline Batista dos Santos                                         Tiago Jordão de Freitas Pinheiro Gomes
+Cintia Soares da Silva                                              Vandinei Alberto dos Santos
+Cristiana Fleming Maia Alves Dias                                   Vânia Maria Leão Carneiro
+Cristiane Ribeiro da Silva Castro                                   Vânia Rebouças Vanden Broucke
+Diego Armando Bugarin R.Guimarães                                   Vicente Sebastian da S. Santos
+Diego Souza Freitas                                                 Zilda Afonso Torres Almeida
+Edson Ribeiro Junior
+Érica Santos Andrade
+Fabiana Abdon Prazeres
+Fabiane do Rosário Dias
+Fabiola Azevedo Araújo
+Francisco Lega Braghiroli
+Gabriel Alves Costa
+Gabriela Paula Brito Soares
+Gabriella Pereira Santos
+Geisa Maria Reis de Santana
+Graciele Oliveira Menezes
+Greice Quele dos Santos Cruz
+Hania Silva Bidu
+Isabela Torres Pinto
+Israel Carneiro Santos Almeida
+                                                         Página 12/13
+"
+"13" "Powered by TCPDF (www.tcpdf.org)
+                                 Página 13/13
+"
