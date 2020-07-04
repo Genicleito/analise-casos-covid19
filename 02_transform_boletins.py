@@ -28,6 +28,7 @@ base_extracted_csv = base.replace(".txt", "_extracted_tab_acum_cases.csv")
 
 
 date_base = base.split("/")[-3]
+print("Base", base, "Data da base", date_base)
 
 
 # In[5]:

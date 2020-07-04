@@ -66,15 +66,24 @@ for i, boletim in enumerate(boletins_sesab):
             r = r[-1]
             s = r.replace("_", "")
             boletim = boletim.replace(r, s)
-            print("\tBoletim tratado:", boletim)
+            # b_name = boletim.replace(r, s)
+            print("\tBoletim tratado:", b_name)
         b_name = re.sub("__[A-Z]+", "__", boletim.split("/")[-1])
         b_name = re.sub("\-\d.pdf", ".pdf", b_name)
+        # dt = b_name.split("_")[-1][:8]
         if not re.search("_[A-z]*\d{8,}.pdf", b_name):
+            qtd_dias = 1
+            if ant_name == "":
+                ant_name = b_name
+                qtd_dias = 0
             data_ant = ant_name.split("_")[-1].replace(".pdf", "")
-            print(b_name, data_ant)
-            date_atual = (datetime.datetime.strptime(data_ant, "%d%m%Y") - datetime.timedelta(1)).strftime("%d%m%Y")
+            if len(data_ant) == 7:
+                data_ant += "0"
+            print("01 -", b_name, "-", data_ant)
+            date_atual = (datetime.datetime.strptime(data_ant, "%d%m%Y") - datetime.timedelta(qtd_dias)).strftime("%d%m%Y")
             print("ALERT | Adicionando data [{}] ao arquivo: {}".format(date_atual, b_name))
-            b_name = b_name.replace(".pdf", "__" + date_atual + ".pdf")
+            # b_name = b_name.replace(".pdf", "__" + date_atual + ".pdf")
+            b_name = "_".join(b_name.split("_")[:-1]) + date_atual + ".pdf"
             print("\tArquivo com a data:", b_name)
             
         print("[Info] - Baixando: {}".format(boletim))

@@ -5,7 +5,7 @@ path_ = './boletins_sesab/'
 raw_path = paste(path_, 'raw/', sep="")
 refined_path = paste(path_, 'refined/', sep="")
 
-last_file = sort(list.files(raw_path), decreasing = T)[1]
+last_file = sort(list.files(paste(path_, "last_boletim/", sep="")), decreasing = T)[1]
 date_base = unlist(last_file %>% strsplit("_"))
 date_base = substr(date_base[length(date_base)], 1, 8)
 date_base = paste(substr(date_base, 5, 8), substr(date_base, 3, 4), substr(date_base, 1, 2), sep = "-")
