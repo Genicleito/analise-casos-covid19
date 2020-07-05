@@ -171,6 +171,48 @@ for i in range(df_nomes_cidades.shape[0]):
     name = df_nomes_cidades['municipio'].iloc[i]
     df_full['municipio'] = df_full['municipio'].str.replace(exp, name)
 
+def fill_gaps_between_dates(dataset, var):
+    df = dataset.copy()
+    df = df[df[var].notnull()]
+    levels = list(df[var].unique())
+    
+    # Garante a transformação da data para o formato datetime
+    df.date = pd.to_datetime(df.date, infer_datetime_format=True)
+
+    df_without_gaps = pd.DataFrame()
+    for level in levels:
+        df_level = df[df[var] == level].sort_values(by='date')
+        
+        # Cria os indíces de acordo com o intervalo das datas
+        date_range = pd.date_range(start=df_level['date'].iloc[0], end=df_level['date'].iloc[-1])
+        # Atribui as datas como indíces do DataFrame
+        df_level.index = pd.DatetimeIndex(df_level['date'])
+        # Reindexa os indíces inserindo as datas faltantes nos gaps (todas as datas em date_range) e preenchendo esses campos com None
+        df_level = df_level.reindex(labels=date_range, method=None)
+        
+        # A variável de data sem gaps será a que está nos indíces
+        df_level = df_level.drop(["date"], axis=1)
+
+        # Preenche os valores com NA criados a partir do método reindex
+        for col in df_level.columns:
+            # Verifica se não são variáveis como 'newCases' ou 'newDeaths'
+            if col.startswith("new") or col.startswith("novo"):
+                # Essas variáveis serão preenchidas com o valor 0 para as datas sem notificação
+                df_level[col].fillna(value=0, inplace=True)
+            else:
+                # Campos serão preenchidos com o primeiro valor válido 
+                df_level[col].ffill(inplace=True)
+        # Reseta os indíces a números sequenciais e cria uma variável 'index' com as datas sem gaps
+        df_level = df_level.reset_index()
+        # Renomeia a coluna de 'index' para date
+        df_level = df_level.rename(columns={'index': 'date'})
+        # Adiciona as notificações dessa cidade ao DataFrame
+        df_without_gaps = df_without_gaps.append(df_level, ignore_index=True) if not df_without_gaps.empty else df_level
+
+    # Padroniza as datas
+    df_without_gaps['date'] = df_without_gaps['date'].astype(str)
+    return df_without_gaps
+
 def create_new_cases(df):
     dfs = pd.DataFrame(columns=list(df.columns) + ['novos_casos'])
     for city in df['municipio'].unique():
