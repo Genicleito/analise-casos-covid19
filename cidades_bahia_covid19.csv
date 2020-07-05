@@ -172,7 +172,6 @@ regex,municipio
 ^[^A-Z]*ITAGIMIRIM[^A-Z]*$,Itagimirim
 ^[^A-Z]*JUCURUCU[^A-Z]*$,Jucuruçu
 ^[^A-Z]*JUCURUÇU[^A-Z]*$,Jucuruçu
-^[^A-Z]*TOTAL[^A-Z]*$,Total
 ^[^A-Z]*SALVADOR[^A-Z]*$,Salvador
 ^[^A-Z]*LAURO[^A-Z]+DE[^A-Z]+FREITAS[^A-Z]*$,Lauro de Freitas
 ^[^A-Z]*CAMACARI[^A-Z]*$,Camaçari
