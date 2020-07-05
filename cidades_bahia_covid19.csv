@@ -181,8 +181,8 @@ regex,municipio
 ^[^A-Z]*CANDEIAS[^A-Z]*$,Candeias
 ^[^A-Z]*SANTO[^A-Z]+ANTONIO[^A-Z]+DE[^A-Z]+JESUS[^A-Z]*$,Santo Antônio de Jesus
 ^[^A-Z]*SANTO[^A-Z]+ANTÔNIO[^A-Z]+DE[^A-Z]+JESUS[^A-Z]*$,Santo Antônio de Jesus
-^[^A-Z]*DIAS[^A-Z]+DAVILA[^A-Z]*$,Dias Dávila
-^[^A-Z]*DIAS[^A-Z]+DÁVILA[^A-Z]*$,Dias Dávila
+^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*AVILA[^A-Z]*$,"Dias d'Ávila"
+^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*ÁVILA[^A-Z]*$,"Dias d'Ávila"
 ^[^A-Z]*SAO[^A-Z]+FRANCISCO[^A-Z]+DO[^A-Z]+CONDE[^A-Z]*$,São Francisco do Conde
 ^[^A-Z]*SÃO[^A-Z]+FRANCISCO[^A-Z]+DO[^A-Z]+CONDE[^A-Z]*$,São Francisco do Conde
 ^[^A-Z]*MADRE[^A-Z]+DE[^A-Z]+DEUS[^A-Z]*$,Madre de Deus
@@ -302,9 +302,8 @@ regex,municipio
 ^[^A-Z]*HELIOPOLIS[^A-Z]*$,Heliópolis
 ^[^A-Z]*HELIÓPOLIS[^A-Z]*$,Heliópolis
 ^[^A-Z]*CARDEAL[^A-Z]+DA[^A-Z]+SILVA[^A-Z]*$,Cardeal da Silva
-^[^A-Z]*ARAMARI[^A-Z]*$,Aramari
-^[^A-Z]*ARACAS[^A-Z]*$,Araças
-^[^A-Z]*ARAÇAS[^A-Z]*$,Araças
+^[^A-Z]*ARACAS[^A-Z]*$,Araçás
+^[^A-Z]*ARAÇÁS[^A-Z]*$,Araçás
 ^[^A-Z]*ANTAS[^A-Z]*$,Antas
 ^[^A-Z]*PEDRAO[^A-Z]*$,Pedrão
 ^[^A-Z]*PEDRÃO[^A-Z]*$,Pedrão
