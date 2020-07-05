@@ -152,7 +152,7 @@ for i in range(1, len(arq)):
 for i in range(len(tuples)):
     tmp = pd.read_csv(tuples[i][0]).drop('id', axis=1)
     print(df_full.shape)
-    tmp = tmp[~ tmp['municipio'].str.contains('(^|[^A-z]+)TOTAL($|[^A-z]+)')]
+    tmp = tmp[~ tmp['municipio'].str.upper().str.contains('(^|[^A-z]+)TOTAL($|[^A-z]+)')]
     df = df.merge(tmp, on=['date', 'municipio'], how='left')
 
 df = df.where(df.notna(), 0)
