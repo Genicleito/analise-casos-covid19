@@ -69,7 +69,7 @@ for i, boletim in enumerate(boletins_sesab):
             # b_name = boletim.replace(r, s)
             print("\tBoletim tratado:", b_name)
         b_name = re.sub("__[A-Z]+", "__", boletim.split("/")[-1])
-        b_name = re.sub("\-\d.pdf", ".pdf", b_name)
+        b_name = re.sub("(\-\d)+.pdf", ".pdf", b_name)
         # dt = b_name.split("_")[-1][:8]
         if not re.search("_[A-z]*\d{8,}.pdf", b_name):
             qtd_dias = 1
