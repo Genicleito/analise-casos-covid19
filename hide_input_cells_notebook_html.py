@@ -9,6 +9,8 @@ def hide_input_cells_notebook_html(read_path, write_path, title=None):
     c_close = 0
     f = open(write_path, encoding='utf8', mode='w')
     for x in arq:
+        if x == "\n":
+            continue
         if (not "<div class=\"input\">" in x and not " output_stderr" in x) and insere:
             if title and "<title>" in x:
                 x = "<title>" + title + "</title>"
