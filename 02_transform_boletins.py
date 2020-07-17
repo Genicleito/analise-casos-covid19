@@ -158,6 +158,7 @@ for i in range(len(tuples)):
 df = df.where(df.notna(), 0)
 
 df.to_csv(transform_path + "boletim_sesab_" + date_base + ".csv", index=False)
+
 print("Colunas salvas boletim full:", list(df_full.columns))
 print("Colunas salvas boletim {}: {}".format(date_base, list(df_full.columns)))
 
@@ -166,6 +167,7 @@ df_full = df_full[~ df_full['municipio'].str.contains('(^|[^A-z]+)TOTAL($|[^A-z]
 
 df_nomes_cidades = pd.read_csv("cidades_bahia_covid19.csv")
 
+print("Padronizando nomes dos municípios")
 for i in range(df_nomes_cidades.shape[0]):
     exp = df_nomes_cidades['regex'].iloc[i]
     name = df_nomes_cidades['municipio'].iloc[i]
@@ -224,6 +226,7 @@ def create_new_cases(df):
         dfs = dfs.append(tmp)
     return dfs
 
+print("Calculando os novos casos...")
 df_full = create_new_cases(df_full)
 
 def create_new_deaths(df):
@@ -237,6 +240,7 @@ def create_new_deaths(df):
         dfs = dfs.append(tmp)
     return dfs
 
+print("Calculando os novos óbitos")
 df_full = create_new_deaths(df_full)
 
 def create_mortality_rate(df):
@@ -244,6 +248,7 @@ def create_mortality_rate(df):
     df['taxa_letalidade'].where(df['taxa_letalidade'].notna(), 0)
     return df
 
+print("Calculando a taxa de letalidade...")
 df_full = create_mortality_rate(df_full)
 
 def create_recovered(df):
@@ -252,13 +257,19 @@ def create_recovered(df):
 
 df_full = create_recovered(df_full)
 
+# Adição do código do município
+print("Obtendo o código do município do IBGE...")
+cities_ibge = pd.read_csv('cidades_brasil_ibge_regex.csv') 
+cities_ibge = cities_ibge[cities_ibge['coduf'] == 29] 
+df_full = df_full.drop("codmun", axis=1).merge(cities_ibge[['codmun', 'municipio']], on=['municipio'], how='left')
+
 d_cols = ['date', 'municipio', 'porcentagem', 'coef_incidencia_100k_hab', 'taxa_letalidade']
 for col in df_full.columns:
     if col not in d_cols:
         df_full[col] = df_full[col].astype(int)
 
 
-print("Base de dados completa com informações do último boletim:", df_full.shape)
+print("Base de dados completa com informações do último boletim:", df_full.shape, "\n", "Colunas:", list(df_full.columns))
 
 os.system("cp -p cases-covid19-bahia.csv cases-covid19-bahia.csv.bkp")
 df_full.to_csv('cases-covid19-bahia.csv', index=False)
