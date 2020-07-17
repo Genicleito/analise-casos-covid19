@@ -219,7 +219,7 @@ regex,municipio
 ^[^A-Z]*SAO[^A-Z]+FELIX[^A-Z]*$,São Félix
 ^[^A-Z]*SÃO[^A-Z]+FÉLIX[^A-Z]*$,São Félix
 ^[^A-Z]*GOVERNADOR[^A-Z]+MANGABEIRA[^A-Z]*$,Governador Mangabeira
-^[^A-Z]*SANTA[^A-Z]+TERESINHA[^A-Z]*$,Santa Teresinha
+^[^A-Z]*SANTA[^A-Z]+TERE[SZ]INHA[^A-Z]*$,Santa Terezinha
 ^[^A-Z]*SAO[^A-Z]+FELIPE[^A-Z]*$,São Felipe
 ^[^A-Z]*SÃO[^A-Z]+FELIPE[^A-Z]*$,São Felipe
 ^[^A-Z]*LAJE[^A-Z]*$,Laje
