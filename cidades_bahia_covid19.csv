@@ -480,6 +480,7 @@ regex,municipio
 ^[^A-Z]*ITUAÇU[^A-Z]*$,Ituaçu
 ^[^A-Z]*IUIU[^A-Z]*$,Iuiu
 ^[^A-Z]*IUIÚ[^A-Z]*$,Iuiu
+^[^A-Z]*ARAMARI[^A-Z]*$,Aramari
 ^[^A-Z]*JACARACI[^A-Z]*$,Jacaraci
 ^[^A-Z]*BOTUPORA[^A-Z]*$,Botuporã
 ^[^A-Z]*BOTUPORÃ[^A-Z]*$,Botuporã
