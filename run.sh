@@ -7,7 +7,7 @@ echo "Transformando dados..."
 python3 02_transform_boletins.py
 
 echo "Gerando análise..."
-jupyter nbconvert --to notebook --execute --inplace 03_analysis.ipynb
+jupyter nbconvert --ExecutePreprocessor.timeout=None --to notebook --execute --inplace 03_analysis.ipynb
 
 echo "Gerando html..."
 jupyter nbconvert --to html 03_analysis.ipynb

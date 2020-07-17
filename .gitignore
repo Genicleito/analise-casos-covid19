@@ -2,6 +2,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python,r
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,python,r
 
+charts/*
 */raw/*.pdf
 *.bkp
 *.part

@@ -56,7 +56,7 @@ re.search("_[A-z]*\d{8,}.pdf", "_A20.pdf")
 
 # In[8]:
 
-
+arquivo_atualizado = False
 ant_name = ""
 for i, boletim in enumerate(boletins_sesab):
     if "BOLETIM_ELETRONICO_BAHIAN" in boletim:
@@ -91,7 +91,8 @@ for i, boletim in enumerate(boletins_sesab):
         print("[Info] - Baixando: {}".format(boletim))
         ant_name = b_name
         os.system("curl -C - " + boletim + " -o " + path + "raw/" + b_name)
-        if i == 0:
+        if i == 0 and not os.path.exists(path + "last_boletim/" + b_name):
+            arquivo_atualizado = True
             os.system("mkdir -p " + path + "last_boletim/; rm -rf " + path + "last_boletim/*; cp -p " + path + "raw/" + b_name + " " + path + "last_boletim/" + b_name)
 #     else:
 #         print("[Alert!] Ignorado link: {}".format(boletim))
@@ -101,6 +102,6 @@ for i, boletim in enumerate(boletins_sesab):
 
 # In[9]:
 
-
-os.system("/usr/bin/Rscript ./extrat_text_pdf.r")
+if arquivo_atualizado:
+    os.system("/usr/bin/Rscript ./extrat_text_pdf.r")
 
