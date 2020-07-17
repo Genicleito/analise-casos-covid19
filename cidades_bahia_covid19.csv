@@ -364,8 +364,8 @@ regex,municipio
 ^[^A-Z]*CRISTÓPOLIS[^A-Z]*$,Cristópolis
 ^[^A-Z]*IBOTIRAMA[^A-Z]*$,Ibotirama
 ^[^A-Z]*BARRA[^A-Z]*$,Barra
-^[^A-Z]*MUQUEM[^A-Z]+DE[^A-Z]+SAO[^A-Z]+FRANCISCO[^A-Z]*$,Muquém de São Francisco
-^[^A-Z]*MUQUÉM[^A-Z]+DE[^A-Z]+SÃO[^A-Z]+FRANCISCO[^A-Z]*$,Muquém de São Francisco
+^[^A-Z]*MUQUEM[^A-Z]+D[EO][^A-Z]+SAO[^A-Z]+FRANCISCO[^A-Z]*$,Muquém do São Francisco
+^[^A-Z]*MUQUÉM[^A-Z]+D[EO][^A-Z]+SÃO[^A-Z]+FRANCISCO[^A-Z]*$,Muquém do São Francisco
 ^[^A-Z]*FORMOSA[^A-Z]+DO[^A-Z]+RIO[^A-Z]+PRETO[^A-Z]*$,Formosa do Rio Preto
 ^[^A-Z]*SANTA[^A-Z]+RITA[^A-Z]+DE[^A-Z]+CASSIA[^A-Z]*$,Santa Rita de Cássia
 ^[^A-Z]*SANTA[^A-Z]+RITA[^A-Z]+DE[^A-Z]+CÁSSIA[^A-Z]*$,Santa Rita de Cássia
