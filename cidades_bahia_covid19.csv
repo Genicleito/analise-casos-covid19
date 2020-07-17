@@ -478,8 +478,8 @@ regex,municipio
 ^[^A-Z]*MAETINGA[^A-Z]*$,Maetinga
 ^[^A-Z]*ITUACU[^A-Z]*$,Ituaçu
 ^[^A-Z]*ITUAÇU[^A-Z]*$,Ituaçu
-^[^A-Z]*IUIU[^A-Z]*$,Iuiú
-^[^A-Z]*IUIÚ[^A-Z]*$,Iuiú
+^[^A-Z]*IUIU[^A-Z]*$,Iuiu
+^[^A-Z]*IUIÚ[^A-Z]*$,Iuiu
 ^[^A-Z]*JACARACI[^A-Z]*$,Jacaraci
 ^[^A-Z]*BOTUPORA[^A-Z]*$,Botuporã
 ^[^A-Z]*BOTUPORÃ[^A-Z]*$,Botuporã
