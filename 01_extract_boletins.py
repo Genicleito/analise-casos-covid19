@@ -90,7 +90,7 @@ for i, boletim in enumerate(boletins_sesab):
             
         print("[Info] - Baixando: {}".format(boletim))
         ant_name = b_name
-        os.system("curl -C - " + boletim + " -o " + path + "raw/" + b_name)
+        os.system("curl -s -C - " + boletim + " -o " + path + "raw/" + b_name)
         if i == 0 and not os.path.exists(path + "last_boletim/" + b_name):
             arquivo_atualizado = True
             os.system("mkdir -p " + path + "last_boletim/; rm -rf " + path + "last_boletim/*; cp -p " + path + "raw/" + b_name + " " + path + "last_boletim/" + b_name)
