@@ -14,6 +14,7 @@ dt_now=$(date -d $(date +%Y-%m-%d) +%s)
 if [ $dt_last_file -ne $dt_now -o $dt_final_file -eq $dt_now ]
 then
 	echo "Dados já estão atualizados!"
+	echo "Data de atualização: $(date -r cases-covid19-bahia.csv)"
 else
 	echo "Novo arquivo encontrado: $last_file";
 
