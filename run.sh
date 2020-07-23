@@ -6,7 +6,7 @@ python3 01_extract_boletins.py
 # Obtendo último arquivo salvo
 raw_path=./boletins_sesab/raw/
 last_boletim_path=./boletins_sesab/last_boletim/
-last_file=$(for f in `ls -lt $raw_path`; do echo $f; done | grep ".pdf" | head -n 1)
+last_file=$raw_path$(for f in `ls -lt $raw_path`; do echo $f; done | grep ".pdf" | head -n 1)
 dt_last_file=$(date -d $(date -r $last_boletim_path$last_file +%Y-%m-%d) +%s)
 dt_final_file=$(date -d $(date -r cases-covid19-bahia.csv +%Y-%m-%d) +%s)
 dt_now=$(date -d $(date +%Y-%m-%d) +%s)
