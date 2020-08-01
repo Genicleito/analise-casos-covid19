@@ -13,7 +13,8 @@ dt_final_file=$(date -d $(date -r cases-covid19-bahia.csv +"%Y-%m-%d") +%s)
 dt_now=$(date -d $(date +"%Y-%m-%d") +"%s")
 
 #if [ $dt_last_file -eq $dt_now -a $dt_final_file -eq $dt_now ]
-if [ $(sed -n "/$(date +"%Y-%m-%d")/p" $repo_path/cases-covid19-bahia.csv | wc -l) -ne 0 ]
+#if [ $(sed -n "/$(date +"%Y-%m-%d")/p" $repo_path/cases-covid19-bahia.csv | wc -l) -ne 0 ]
+if [ $(ls -l $raw_path | sed -n "/$(date +"%d%m%Y")/p" | wc -l) -eq 0 ]
 then
 	echo "Dados já estão atualizados!"
 	echo "Data de modificação do ultimo boletim: $(date -r $last_boletim_path$last_file)"
