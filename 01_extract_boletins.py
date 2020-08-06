@@ -17,7 +17,7 @@ today
 # In[3]:
 
 
-url = 'http://www.saude.ba.gov.br/temasdesaude/coronavirus/notas-tecnicas-e-boletins-epidemiologicos-covid-19/'
+url = 'http://www.saude.ba.gov.br/temasdesaude/coronavirus/boletins-diarios-covid-19/'
 path = "./boletins_sesab/"
 
 
