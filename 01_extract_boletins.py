@@ -30,7 +30,7 @@ r.close()
 
 # In[5]:
 
-limit_boletins = 10
+limit_boletins = 1
 boletins_page = r.text.split("Boletim Epidemiológico – COVID-19")
 boletim_mais_recente = boletins_page[0].split("href=\"")[-1].split("\"")[0]
 #boletins_sesab = sorted([boletim_mais_recente] + [x.split("href=\"")[1].split("\"")[0] for x in boletins_page[1:]], reverse=True)
