@@ -126,28 +126,39 @@ f = open(base.replace(".txt", "_tabs_ativos_obitosmunres_obitosmunocor.csv"))
 arq = f.readlines()
 f.close()
 
+print("Informações de óbitos:", base.replace(".txt", "_tabs_ativos_obitosmunres_obitosmunocor.csv"))
+
+
 tuples = [
     (os.path.dirname(base) + '/01_boletim_extracted_tab_ativos.csv', 'date,id,municipio,total_ativos\n'),
     (os.path.dirname(base) + '/01_boletim_extracted_tab_obitos_munres.csv', 'date,id,municipio,total_obitos_munres\n'),
     (os.path.dirname(base) + '/01_boletim_extracted_tab_obitos_munocor.csv', 'date,id,municipio,total_obitos_munocor\n')
 ]
 
-ids_tabs = []
-j = 0
-print("Escrevendo arquivo:", tuples[j][0])
-f = open(tuples[j][0], 'w')
-f.write(tuples[j][1]) # cabeçalho
-f.write(date_base + "," + arq[0])
-for i in range(1, len(arq)):
-    f.write(date_base + "," + arq[i])
-    if int(arq[i].split(",")[0]) < int(arq[i - 1].split(",")[0]):
-        f.close()
-        j += 1
-        if j > 2:
-            break
-        print("Escrevendo arquivo:", tuples[j][0])
-        f = open(tuples[j][0], 'w')
-        f.write(tuples[j][1]) # cabeçalho
+if len(arq) <= 1:
+    ant_data = sorted(os.listdir('/'.join(base.split("/")[:-3])), reverse=True)[1]
+    print("Arquivo [{}] contém apenas {} linhas, serão utilizadas informações de óbitos da data: {}".format(base.replace(".txt", "_tabs_ativos_obitosmunres_obitosmunocor.csv"), len(arq), ant_data))
+    for t in tuples:
+        print("\t=>\tcp -p " + re.sub("\d{4}-\d{2}-\d{2}", ant_data, t[0]) + " " + os.path.dirname(base) + "/")
+        os.system("cp -p " + re.sub("\d{4}-\d{2}-\d{2}", ant_data, t[0]) + " " + os.path.dirname(base) + "/")
+else:
+    ids_tabs = []
+    j = 0
+    print("Escrevendo arquivo:", tuples[j][0])
+    f = open(tuples[j][0], 'w')
+    f.write(tuples[j][1]) # cabeçalho
+    print(date_base + "," + arq[0])
+    f.write(date_base + "," + arq[0])
+    for i in range(1, len(arq)):
+        f.write(date_base + "," + arq[i])
+        if int(arq[i].split(",")[0]) < int(arq[i - 1].split(",")[0]):
+            f.close()
+            j += 1
+            if j > 2:
+                break
+            print("Escrevendo arquivo:", tuples[j][0])
+            f = open(tuples[j][0], 'w')
+            f.write(tuples[j][1]) # cabeçalho
 
 for i in range(len(tuples)):
     tmp = pd.read_csv(tuples[i][0]).drop('id', axis=1)
