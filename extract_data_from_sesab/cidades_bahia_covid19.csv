@@ -1,0 +1,604 @@
+ibgeID,city,population,regex
+2910800,Feira de Santana,614872,^[^A-Z]*FEIRA[^A-Z]+DE[^A-Z]+SANTANA[^A-Z]*$
+2930501,Serrinha,80861,^[^A-Z]*SERRINHA[^A-Z]*$
+2914703,Itaberaba,64489,^[^A-Z]*ITABERABA[^A-Z]*$
+2902104,Araci,54379,^[^A-Z]*ARACI[^A-Z]*$
+2933000,Valente,28473,^[^A-Z]*VALENTE[^A-Z]*$
+2908408,Conceição do Coité,66612,^[^A-Z]*CONCEICAO[^A-Z]+DO[^A-Z]+COITE[^A-Z]*$
+2908408,Conceição do Coité,66612,^[^A-Z]*CONCEIÇÃO[^A-Z]+DO[^A-Z]+COITÉ[^A-Z]*$
+2908507,Conceição do Jacuípe,33153,^[^A-Z]*CONCEICAO[^A-Z]+DO[^A-Z]+JACUIPE[^A-Z]*$
+2908507,Conceição do Jacuípe,33153,^[^A-Z]*CONCEIÇÃO[^A-Z]+DO[^A-Z]+JACUÍPE[^A-Z]*$
+2931509,Teofilândia,22518,^[^A-Z]*TEOFILANDIA[^A-Z]*$
+2931509,Teofilândia,22518,^[^A-Z]*TEOFILÂNDIA[^A-Z]*$
+2927507,Santa Bárbara,20791,^[^A-Z]*SANTA[^A-Z]+BARBARA[^A-Z]*$
+2927507,Santa Bárbara,20791,^[^A-Z]*SANTA[^A-Z]+BÁRBARA[^A-Z]*$
+2929305,São Gonçalo dos Campos,37550,^[^A-Z]*SAO[^A-Z]+GONCALO[^A-Z]+DOS[^A-Z]+CAMPOS[^A-Z]*$
+2929305,São Gonçalo dos Campos,37550,^[^A-Z]*SÃO[^A-Z]+GONÇALO[^A-Z]+DOS[^A-Z]+CAMPOS[^A-Z]*$
+2901106,Amélia Rodrigues,25102,^[^A-Z]*AMELIA[^A-Z]+RODRIGUES[^A-Z]*$
+2901106,Amélia Rodrigues,25102,^[^A-Z]*AMÉLIA[^A-Z]+RODRIGUES[^A-Z]*$
+2927200,Ruy Barbosa,30814,^[^A-Z]*RUY[^A-Z]+BARBOSA[^A-Z]*$
+2924652,Pintadas,10437,^[^A-Z]*PINTADAS[^A-Z]*$
+2914000,Ipirá,59595,^[^A-Z]*IPIRA[^A-Z]*$
+2914000,Ipirá,59595,^[^A-Z]*IPIRÁ[^A-Z]*$
+2921500,Monte Santo,49418,^[^A-Z]*MONTE[^A-Z]+SANTO[^A-Z]*$
+2928000,Santaluz,37348,^[^A-Z]*SANTALUZ[^A-Z]*$
+2926301,Riachão do Jacuípe,33436,^[^A-Z]*RIACHAO[^A-Z]+DO[^A-Z]+JACUIPE[^A-Z]*$
+2926301,Riachão do Jacuípe,33436,^[^A-Z]*RIACHÃO[^A-Z]+DO[^A-Z]+JACUÍPE[^A-Z]*$
+2931707,Terra Nova,13033,^[^A-Z]*TERRA[^A-Z]+NOVA[^A-Z]*$
+2925956,Rafael Jambeiro,22621,^[^A-Z]*RAFAEL[^A-Z]+JAMBEIRO[^A-Z]*$
+2925808,Queimadas,25439,^[^A-Z]*QUEIMADAS[^A-Z]*$
+2926103,Retirolândia,14396,^[^A-Z]*RETIROLANDI[^A-Z]*A[^A-Z]*$
+2926103,Retirolândia,14396,^[^A-Z]*RETIROLÂNDI[^A-Z]*A[^A-Z]*$
+2922656,Nordestina,13130,^[^A-Z]*NORDESTINA[^A-Z]*$
+2908903,Coração de Maria,22605,^[^A-Z]*CORACAO[^A-Z]+DE[^A-Z]+MARIA[^A-Z]*$
+2908903,Coração de Maria,22605,^[^A-Z]*CORAÇÃO[^A-Z]+DE[^A-Z]+MARIA[^A-Z]*$
+2914406,Iraquara,25216,^[^A-Z]*IRAQUARA[^A-Z]*$
+2915007,Itaeté,16056,^[^A-Z]*ITAETE[^A-Z]*$
+2915007,Itaeté,16056,^[^A-Z]*ITAETÉ[^A-Z]*$
+2928802,Santo Estêvão,52850,^[^A-Z]*SANTO[^A-Z]+ESTEVAO[^A-Z]*$
+2928802,Santo Estêvão,52850,^[^A-Z]*SANTO[^A-Z]+ESTÊVÃO[^A-Z]*$
+2911907,Iaçu,24305,^[^A-Z]*IACU[^A-Z]*$
+2911907,Iaçu,24305,^[^A-Z]*IAÇU[^A-Z]*$
+2906808,Cansanção,34834,^[^A-Z]*CANSANCAO[^A-Z]*$
+2906808,Cansanção,34834,^[^A-Z]*CANSANÇÃO[^A-Z]*$
+2903276,Barrocas,15978,^[^A-Z]*BARROCAS[^A-Z]*$
+2900405,Água Fria,16970,^[^A-Z]*AGUA[^A-Z]+FRIA[^A-Z]*$
+2900405,Água Fria,16970,^[^A-Z]*ÁGUA[^A-Z]+FRIA[^A-Z]*$
+2931905,Tucano,50687,^[^A-Z]*TUCANO[^A-Z]*$
+2931103,Tanquinho,7918,^[^A-Z]*TANQUINHO[^A-Z]*$
+2910701,Euclides da Cunha,60585,^[^A-Z]*EUCLIDES[^A-Z]+DA[^A-Z]+CUNHA[^A-Z]*$
+2901502,Anguera,11221,^[^A-Z]*ANGUERA[^A-Z]*$
+2914505,Irará,29034,^[^A-Z]*IRARA[^A-Z]*$
+2914505,Irará,29034,^[^A-Z]*IRARÁ[^A-Z]*$
+2928307,Santanópolis,8943,^[^A-Z]*SANTANOPOLI[^A-Z]*S[^A-Z]*$
+2928307,Santanópolis,8943,^[^A-Z]*SANTANÓPOLI[^A-Z]*S[^A-Z]*$
+2929909,Seabra,44091,^[^A-Z]*SEABRA[^A-Z]*$
+2924058,Pé de Serra,13578,^[^A-Z]*PE[^A-Z]+DE[^A-Z]+SERRA[^A-Z]*$
+2924058,Pé de Serra,13578,^[^A-Z]*PÉ[^A-Z]+DE[^A-Z]+SERRA[^A-Z]*$
+2919108,Lamarão,8307,^[^A-Z]*LAMARAO[^A-Z]*$
+2919108,Lamarão,8307,^[^A-Z]*LAMARÃO[^A-Z]*$
+2930402,Serra Preta,14878,^[^A-Z]*SERRA[^A-Z]+PRETA[^A-Z]*$
+2906402,Candeal,8258,^[^A-Z]*CANDEAL[^A-Z]*$
+2925907,Quijingue,27580,^[^A-Z]*QUIJINGUE[^A-Z]*$
+2931400,Teodoro Sampaio,7425,^[^A-Z]*TEODORO[^A-Z]+SAMPAIO[^A-Z]*$
+2906857,Capela do Alto Alegre,11637,^[^A-Z]*CAPELA[^A-Z]+DO[^A-Z]+ALTO[^A-Z]+ALEGRE[^A-Z]*$
+2901700,Antônio Cardoso,11683,^[^A-Z]*ANTONIO[^A-Z]+CARDOSO[^A-Z]*$
+2901700,Antônio Cardoso,11683,^[^A-Z]*ANTÔNIO[^A-Z]+CARDOSO[^A-Z]*$
+2921906,Mucugê,9062,^[^A-Z]*MUCUGE[^A-Z]*$
+2921906,Mucugê,9062,^[^A-Z]*MUCUGÊ[^A-Z]*$
+2919603,Macajuba,11348,^[^A-Z]*MACAJUBA[^A-Z]*$
+2913002,Ibitiara,16339,^[^A-Z]*IBITIARA[^A-Z]*$
+2901304,Andaraí,13143,^[^A-Z]*ANDARAI[^A-Z]*$
+2901304,Andaraí,13143,^[^A-Z]*ANDARAÍ[^A-Z]*$
+2924306,Piatã,17123,^[^A-Z]*PIATA[^A-Z]*$
+2924306,Piatã,17123,^[^A-Z]*PIATÃ[^A-Z]*$
+2920809,Marcionílio Souza,10406,^[^A-Z]*MARCIONILIO[^A-Z]+SOUZA[^A-Z]*$
+2920809,Marcionílio Souza,10406,^[^A-Z]*MARCIONÍLIO[^A-Z]+SOUZA[^A-Z]*$
+2928950,São Domingos,9058,^[^A-Z]*SAO[^A-Z]+DOMINGOS[^A-Z]*$
+2928950,São Domingos,9058,^[^A-Z]*SÃO[^A-Z]+DOMINGOS[^A-Z]*$
+2913804,Ipecaetá,14487,^[^A-Z]*IPECAETA[^A-Z]*$
+2913804,Ipecaetá,14487,^[^A-Z]*IPECAETÁ[^A-Z]*$
+2932804,Utinga,19178,^[^A-Z]*UTINGA[^A-Z]*$
+2903805,Boa Vista do Tupim,18576,^[^A-Z]*BOA[^A-Z]+VISTA[^A-Z]+DO[^A-Z]+TUPIM[^A-Z]*$
+2900108,Abaíra,8739,^[^A-Z]*ABAIRA[^A-Z]*$
+2900108,Abaíra,8739,^[^A-Z]*ABAÍRA[^A-Z]*$
+2930808,Souto Soares,16979,^[^A-Z]*SOUTO[^A-Z]+SOARES[^A-Z]*$
+2922730,Nova Fátima,7812,^[^A-Z]*NOVA[^A-Z]+FATIMA[^A-Z]*$
+2922730,Nova Fátima,7812,^[^A-Z]*NOVA[^A-Z]+FÁTIMA[^A-Z]*$
+2904001,Boninal,14368,^[^A-Z]*BONINAL[^A-Z]*$
+2923506,Palmeiras,9019,^[^A-Z]*PALMEIRAS[^A-Z]*$
+2922854,Nova Redenção,9118,^[^A-Z]*NOVA[^A-Z]+REDENCAO[^A-Z]*$
+2922854,Nova Redenção,9118,^[^A-Z]*NOVA[^A-Z]+REDENÇÃO[^A-Z]*$
+2913309,Ichu,6206,^[^A-Z]*ICHU[^A-Z]*$
+2902609,Baixa Grande,20468,^[^A-Z]*BAIXA[^A-Z]+GRANDE[^A-Z]*$
+2933406,Wagner,9345,^[^A-Z]*WAGNER[^A-Z]*$
+2922102,Mundo Novo,26776,^[^A-Z]*MUNDO[^A-Z]+NOVO[^A-Z]*$
+2903607,Biritinga,15979,^[^A-Z]*BIRITINGA[^A-Z]*$
+2917508,Jacobina,80518,^[^A-Z]*JACOBINA[^A-Z]*$
+2906873,Capim Grosso,30662,^[^A-Z]*CAPIM[^A-Z]+GROSSO[^A-Z]*$
+2914604,Irecê,72967,^[^A-Z]*IRECE[^A-Z]*$
+2914604,Irecê,72967,^[^A-Z]*IRECÊ[^A-Z]*$
+2918357,João Dourado,25188,^[^A-Z]*JOAO[^A-Z]+DOURADO[^A-Z]*$
+2918357,João Dourado,25188,^[^A-Z]*JOÃO[^A-Z]+DOURADO[^A-Z]*$
+2932457,Umburanas,19222,^[^A-Z]*UMBURANAS[^A-Z]*$
+2905107,Caém,9213,^[^A-Z]*CAEM[^A-Z]*$
+2905107,Caém,9213,^[^A-Z]*CAÉM[^A-Z]*$
+2920106,Mairi,18676,^[^A-Z]*MAIRI[^A-Z]*$
+2905503,Caldeirão Grande,13327,^[^A-Z]*CALDEIRAO[^A-Z]+GRANDE[^A-Z]*$
+2905503,Caldeirão Grande,13327,^[^A-Z]*CALDEIRÃO[^A-Z]+GRANDE[^A-Z]*$
+2925600,Presidente Dutra,15142,^[^A-Z]*PRESIDENTE[^A-Z]+DUTRA[^A-Z]*$
+2933604,Xique-Xique,46483,^[^A-Z]*XIQUE-XIQUE[^A-Z]*$
+2919157,Lapão,27223,^[^A-Z]*LAPAO[^A-Z]*$
+2919157,Lapão,27223,^[^A-Z]*LAPÃO[^A-Z]*$
+2906204,Canarana,26176,^[^A-Z]*CANARANA[^A-Z]*$
+2930600,Serrolândia,13397,^[^A-Z]*SERROLANDIA[^A-Z]*$
+2930600,Serrolândia,13397,^[^A-Z]*SERROLÂNDIA[^A-Z]*$
+2901155,América Dourada,16094,^[^A-Z]*AMERICA[^A-Z]+DOURADA[^A-Z]*$
+2901155,América Dourada,16094,^[^A-Z]*AMÉRICA[^A-Z]+DOURADA[^A-Z]*$
+2921203,Miguel Calmon,26023,^[^A-Z]*MIGUEL[^A-Z]+CALMON[^A-Z]*$
+2911303,Gentio do Ouro,11233,^[^A-Z]*GENTIO[^A-Z]+DO[^A-Z]+OURO[^A-Z]*$
+2933158,Várzea Nova,12697,^[^A-Z]*VARZEA[^A-Z]+NOVA[^A-Z]*$
+2933158,Várzea Nova,12697,^[^A-Z]*VÁRZEA[^A-Z]+NOVA[^A-Z]*$
+2925931,Quixabeira,8972,^[^A-Z]*QUIXABEIRA[^A-Z]*$
+2921708,Morro do Chapéu,35413,^[^A-Z]*MORRO[^A-Z]+DO[^A-Z]+CHAPEU[^A-Z]*$
+2921708,Morro do Chapéu,35413,^[^A-Z]*MORRO[^A-Z]+DO[^A-Z]+CHAPÉU[^A-Z]*$
+2923357,Ourolândia,17451,^[^A-Z]*OUROLANDIA[^A-Z]*$
+2923357,Ourolândia,17451,^[^A-Z]*OUROLÂNDIA[^A-Z]*$
+2922052,Mulungu do Morro,10889,^[^A-Z]*MULUNGU[^A-Z]+DO[^A-Z]+MORRO[^A-Z]*$
+2921401,Mirangaba,18338,^[^A-Z]*MIRANGABA[^A-Z]*$
+2912400,Ibipeba,18211,^[^A-Z]*IBIPEBA[^A-Z]*$
+2924801,Piritiba,24755,^[^A-Z]*PIRITIBA[^A-Z]*$
+2933059,Várzea da Roça,14104,^[^A-Z]*VARZEA[^A-Z]+DA[^A-Z]+ROCA[^A-Z]*$
+2933059,Várzea da Roça,14104,^[^A-Z]*VÁRZEA[^A-Z]+DA[^A-Z]+ROÇA[^A-Z]*$
+2932408,Uibaí,13887,^[^A-Z]*UIBAI[^A-Z]*$
+2932408,Uibaí,13887,^[^A-Z]*UIBAÍ[^A-Z]*$
+2929370,São José do Jacuípe,10462,^[^A-Z]*SAO[^A-Z]+JOSE[^A-Z]+DO[^A-Z]+JACUIPE[^A-Z]*$
+2929370,São José do Jacuípe,10462,^[^A-Z]*SÃO[^A-Z]+JOSÉ[^A-Z]+DO[^A-Z]+JACUÍPE[^A-Z]*$
+2929255,São Gabriel,18793,^[^A-Z]*SAO[^A-Z]+GABRIEL[^A-Z]*$
+2929255,São Gabriel,18793,^[^A-Z]*SÃO[^A-Z]+GABRIEL[^A-Z]*$
+2905305,Cafarnaum,18437,^[^A-Z]*CAFARNAUM[^A-Z]*$
+2931301,Tapiramutá,17010,^[^A-Z]*TAPIRAMUTA[^A-Z]*$
+2931301,Tapiramutá,17010,^[^A-Z]*TAPIRAMUTÁ[^A-Z]*$
+2903003,Barra do Mendes,13865,^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+MENDES[^A-Z]*$
+2915353,Itaguaçu da Bahia,14429,^[^A-Z]*ITAGUACU[^A-Z]+DA[^A-Z]+BAHIA[^A-Z]*$
+2915353,Itaguaçu da Bahia,14429,^[^A-Z]*ITAGUAÇU[^A-Z]+DA[^A-Z]+BAHIA[^A-Z]*$
+2918506,Jussara,15284,^[^A-Z]*JUSSARA[^A-Z]*$
+2931350,Teixeira de Freitas,160487,^[^A-Z]*TEIXEIRA[^A-Z]+DE[^A-Z]+FREITAS[^A-Z]*$
+2910727,Eunápolis,113380,^[^A-Z]*EUNAPOLIS[^A-Z]*$
+2910727,Eunápolis,113380,^[^A-Z]*EUNÁPOLIS[^A-Z]*$
+2925303,Porto Seguro,148686,^[^A-Z]*PORTO[^A-Z]+SEGURO[^A-Z]*$
+2915601,Itamaraju,64486,^[^A-Z]*ITAMARAJU[^A-Z]*$
+2922003,Mucuri,41748,^[^A-Z]*MUCURI[^A-Z]*$
+2923001,Nova Viçosa,43376,^[^A-Z]*NOVA[^A-Z]+VICOSA[^A-Z]*$
+2923001,Nova Viçosa,43376,^[^A-Z]*NOVA[^A-Z]+VIÇOSA[^A-Z]*$
+2925501,Prado,28174,^[^A-Z]*PRADO[^A-Z]*$
+2927705,Santa Cruz Cabrália,27778,^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+CABRALIA[^A-Z]*$
+2927705,Santa Cruz Cabrália,27778,^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+CABRÁLIA[^A-Z]*$
+2916005,Itanhém,19405,^[^A-Z]*ITANHEM[^A-Z]*$
+2916005,Itanhém,19405,^[^A-Z]*ITANHÉM[^A-Z]*$
+2921104,Medeiros Neto,22688,^[^A-Z]*MEDEIROS[^A-Z]+NETO[^A-Z]*$
+2903409,Belmonte,23328,^[^A-Z]*BELMONTE[^A-Z]*$
+2914653,Itabela,30584,^[^A-Z]*ITABELA[^A-Z]*$
+2916302,Itapebi,10259,^[^A-Z]*ITAPEBI[^A-Z]*$
+2900801,Alcobaça,22470,^[^A-Z]*ALCOBACA[^A-Z]*$
+2900801,Alcobaça,22470,^[^A-Z]*ALCOBAÇA[^A-Z]*$
+2912806,Ibirapuã,8637,^[^A-Z]*IBIRAPUA[^A-Z]*$
+2912806,Ibirapuã,8637,^[^A-Z]*IBIRAPUÃ[^A-Z]*$
+2911808,Guaratinga,20843,^[^A-Z]*GUARATINGA[^A-Z]*$
+2906907,Caravelas,22016,^[^A-Z]*CARAVELAS[^A-Z]*$
+2933257,Vereda,6205,^[^A-Z]*VEREDA[^A-Z]*$
+2918902,Lajedão,3955,^[^A-Z]*LAJEDAO[^A-Z]*$
+2918902,Lajedão,3955,^[^A-Z]*LAJEDÃO[^A-Z]*$
+2915304,Itagimirim,6869,^[^A-Z]*ITAGIMIRIM[^A-Z]*$
+2918456,Jucuruçu,9126,^[^A-Z]*JUCURUCU[^A-Z]*$
+2918456,Jucuruçu,9126,^[^A-Z]*JUCURUÇU[^A-Z]*$
+2927408,Salvador,2872347,^[^A-Z]*SALVADOR[^A-Z]*$
+2919207,Lauro de Freitas,198440,^[^A-Z]*LAURO[^A-Z]+DE[^A-Z]+FREITAS[^A-Z]*$
+2905701,Camaçari,299132,^[^A-Z]*CAMACARI[^A-Z]*$
+2905701,Camaçari,299132,^[^A-Z]*CAMAÇARI[^A-Z]*$
+2930709,Simões Filho,134377,^[^A-Z]*SIMOES[^A-Z]+FILHO[^A-Z]*$
+2930709,Simões Filho,134377,^[^A-Z]*SIMÕES[^A-Z]+FILHO[^A-Z]*$
+2906501,Candeias,87076,^[^A-Z]*CANDEIAS[^A-Z]*$
+2928703,Santo Antônio de Jesus,101512,^[^A-Z]*SANTO[^A-Z]+ANTONIO[^A-Z]+DE[^A-Z]+JESUS[^A-Z]*$
+2928703,Santo Antônio de Jesus,101512,^[^A-Z]*SANTO[^A-Z]+ANTÔNIO[^A-Z]+DE[^A-Z]+JESUS[^A-Z]*$
+2910057,Dias d'Ávila,81089,^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*AVILA[^A-Z]*$
+2910057,Dias d'Ávila,81089,^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*ÁVILA[^A-Z]*$
+2929206,São Francisco do Conde,39802,^[^A-Z]*SAO[^A-Z]+FRANCISCO[^A-Z]+DO[^A-Z]+CONDE[^A-Z]*$
+2929206,São Francisco do Conde,39802,^[^A-Z]*SÃO[^A-Z]+FRANCISCO[^A-Z]+DO[^A-Z]+CONDE[^A-Z]*$
+2919926,Madre de Deus,21093,^[^A-Z]*MADRE[^A-Z]+DE[^A-Z]+DEUS[^A-Z]*$
+2925204,Pojuca,39519,^[^A-Z]*POJUCA[^A-Z]*$
+2929503,São Sebastião do Passé,44300,^[^A-Z]*SAO[^A-Z]+SEBASTIAO[^A-Z]+DO[^A-Z]+PASSE[^A-Z]*$
+2929503,São Sebastião do Passé,44300,^[^A-Z]*SÃO[^A-Z]+SEBASTIÃO[^A-Z]+DO[^A-Z]+PASSÉ[^A-Z]*$
+2928604,Santo Amaro,60069,^[^A-Z]*SANTO[^A-Z]+AMARO[^A-Z]*$
+2921005,Mata de São João,46583,^[^A-Z]*MATA[^A-Z]+DE[^A-Z]+SAO[^A-Z]+JOAO[^A-Z]*$
+2921005,Mata de São João,46583,^[^A-Z]*MATA[^A-Z]+DE[^A-Z]+SÃO[^A-Z]+JOÃO[^A-Z]*$
+2933208,Vera Cruz,43223,^[^A-Z]*VERA[^A-Z]+CRUZ[^A-Z]*$
+2909802,Cruz das Almas,63239,^[^A-Z]*CRUZ[^A-Z]+DAS[^A-Z]+ALMAS[^A-Z]*$
+2908200,Conceição da Feira,22581,^[^A-Z]*CONCEICAO[^A-Z]+DA[^A-Z]+FEIRA[^A-Z]*$
+2908200,Conceição da Feira,22581,^[^A-Z]*CONCEIÇÃO[^A-Z]+DA[^A-Z]+FEIRA[^A-Z]*$
+2920601,Maragogipe,44677,^[^A-Z]*MARAGOGIPE[^A-Z]*$
+2925758,Presidente Tancredo Neves,27719,^[^A-Z]*PRESIDENTE[^A-Z]+TANCREDO[^A-Z]+NEVES[^A-Z]*$
+2904902,Cachoeira,33470,^[^A-Z]*CACHOEIRA[^A-Z]*$
+2916104,Itaparica,22228,^[^A-Z]*ITAPARICA[^A-Z]*$
+2922300,Muritiba,29399,^[^A-Z]*MURITIBA[^A-Z]*$
+2907301,Castro Alves,26264,^[^A-Z]*CASTRO[^A-Z]+ALVES[^A-Z]*$
+2921302,Milagres,10950,^[^A-Z]*MILAGRES[^A-Z]*$
+2922508,Nazaré,28525,^[^A-Z]*NAZARE[^A-Z]*$
+2922508,Nazaré,28525,^[^A-Z]*NAZARÉ[^A-Z]*$
+2901007,Amargosa,37241,^[^A-Z]*AMARGOSA[^A-Z]*$
+2908606,Conde,25837,^[^A-Z]*CONDE[^A-Z]*$
+2908309,Conceição do Almeida,17247,^[^A-Z]*CONCEICAO[^A-Z]+DO[^A-Z]+ALMEIDA[^A-Z]*$
+2908309,Conceição do Almeida,17247,^[^A-Z]*CONCEIÇÃO[^A-Z]+DO[^A-Z]+ALMEIDA[^A-Z]*$
+2916856,Itatim,14487,^[^A-Z]*ITATIM[^A-Z]*$
+2929750,Saubara,12043,^[^A-Z]*SAUBARA[^A-Z]*$
+2929602,Sapeaçu,17398,^[^A-Z]*SAPEACU[^A-Z]*$
+2929602,Sapeaçu,17398,^[^A-Z]*SAPEAÇU[^A-Z]*$
+2917805,Jaguaripe,18788,^[^A-Z]*JAGUARIPE[^A-Z]*$
+2922409,Mutuípe,22221,^[^A-Z]*MUTUIPE[^A-Z]*$
+2922409,Mutuípe,22221,^[^A-Z]*MUTUÍPE[^A-Z]*$
+2929008,São Félix,14740,^[^A-Z]*SAO[^A-Z]+FELIX[^A-Z]*$
+2929008,São Félix,14740,^[^A-Z]*SÃO[^A-Z]+FÉLIX[^A-Z]*$
+2911600,Governador Mangabeira,20722,^[^A-Z]*GOVERNADOR[^A-Z]+MANGABEIRA[^A-Z]*$
+2928505,Santa Teresinha,10405,^[^A-Z]*SANTA[^A-Z]+TERE[SZ]INHA[^A-Z]*$
+2929107,São Felipe,21074,^[^A-Z]*SAO[^A-Z]+FELIPE[^A-Z]*$
+2929107,São Felipe,21074,^[^A-Z]*SÃO[^A-Z]+FELIPE[^A-Z]*$
+2918803,Laje,23840,^[^A-Z]*LAJE[^A-Z]*$
+2904852,Cabaceiras do Paraguaçu,18807,^[^A-Z]*CABACEIRAS[^A-Z]+DO[^A-Z]+PARAGUACU[^A-Z]*$
+2904852,Cabaceiras do Paraguaçu,18807,^[^A-Z]*CABACEIRAS[^A-Z]+DO[^A-Z]+PARAGUAÇU[^A-Z]*$
+2927309,Salinas da Margarida,15667,^[^A-Z]*SALINAS[^A-Z]+DA[^A-Z]+MARGARIDA[^A-Z]*$
+2922201,Muniz Ferreira,7422,^[^A-Z]*MUNIZ[^A-Z]+FERREIRA[^A-Z]*$
+2910206,Dom Macedo Costa,4058,^[^A-Z]*DOM[^A-Z]+MACEDO[^A-Z]+COSTA[^A-Z]*$
+2932101,Ubaíra,19895,^[^A-Z]*UBAIRA[^A-Z]*$
+2932101,Ubaíra,19895,^[^A-Z]*UBAÍRA[^A-Z]*$
+2933174,Varzedo,8838,^[^A-Z]*VARZEDO[^A-Z]*$
+2929404,São Miguel das Matas,11675,^[^A-Z]*SAO[^A-Z]+MIGUEL[^A-Z]+DAS[^A-Z]+MATAS[^A-Z]*$
+2929404,São Miguel das Matas,11675,^[^A-Z]*SÃO[^A-Z]+MIGUEL[^A-Z]+DAS[^A-Z]+MATAS[^A-Z]*$
+2922805,Nova Itarana,8226,^[^A-Z]*NOVA[^A-Z]+ITARANA[^A-Z]*$
+2918209,Jiquiriçá,14537,^[^A-Z]*JIQUIRICA[^A-Z]*$
+2918209,Jiquiriçá,14537,^[^A-Z]*JIQUIRIÇÁ[^A-Z]*$
+2910305,Elísio Medrado,8122,^[^A-Z]*ELISIO[^A-Z]+MEDRADO[^A-Z]*$
+2910305,Elísio Medrado,8122,^[^A-Z]*ELÍSIO[^A-Z]+MEDRADO[^A-Z]*$
+2902302,Aratuípe,8825,^[^A-Z]*ARATUIPE[^A-Z]*$
+2902302,Aratuípe,8825,^[^A-Z]*ARATUÍPE[^A-Z]*$
+2900702,Alagoinhas,151596,^[^A-Z]*ALAGOINHAS[^A-Z]*$
+2907509,Catu,54704,^[^A-Z]*CATU[^A-Z]*$
+2926608,Ribeira do Pombal,53807,^[^A-Z]*RIBEIRA[^A-Z]+DO[^A-Z]+POMBAL[^A-Z]*$
+2910503,Entre Rios,41780,^[^A-Z]*ENTRE[^A-Z]+RIOS[^A-Z]*$
+2922904,Nova Soure,26947,^[^A-Z]*NOVA[^A-Z]+SOURE[^A-Z]*$
+2917904,Jandaíra,10709,^[^A-Z]*JANDAIRA[^A-Z]*$
+2917904,Jandaíra,10709,^[^A-Z]*JANDAÍRA[^A-Z]*$
+2916500,Itapicuru,35576,^[^A-Z]*ITAPICURU[^A-Z]*$
+2927002,Rio Real,40732,^[^A-Z]*RIO[^A-Z]+REAL[^A-Z]*$
+2910602,Esplanada,37237,^[^A-Z]*ESPLANADA[^A-Z]*$
+2901908,Aporá,17731,^[^A-Z]*APORA[^A-Z]*$
+2901908,Aporá,17731,^[^A-Z]*APORÁ[^A-Z]*$
+2907806,Cícero Dantas,32515,^[^A-Z]*CICERO[^A-Z]+DANTAS[^A-Z]*$
+2907806,Cícero Dantas,32515,^[^A-Z]*CÍCERO[^A-Z]+DANTAS[^A-Z]*$
+2930766,Sítio do Quinto,9986,^[^A-Z]*SITIO[^A-Z]+DO[^A-Z]+QUINTO[^A-Z]*$
+2930766,Sítio do Quinto,9986,^[^A-Z]*SÍTIO[^A-Z]+DO[^A-Z]+QUINTO[^A-Z]*$
+2900355,Adustina,17040,^[^A-Z]*ADUSTINA[^A-Z]*$
+2902658,Banzaê,13229,^[^A-Z]*BANZAE[^A-Z]*$
+2902658,Banzaê,13229,^[^A-Z]*BANZAÊ[^A-Z]*$
+2923803,Paripiranga,28989,^[^A-Z]*PARIPIRANGA[^A-Z]*$
+2900306,Acajutiba,15159,^[^A-Z]*ACAJUTIBA[^A-Z]*$
+2929701,Sátiro Dias,17273,^[^A-Z]*SATIRO[^A-Z]+DIAS[^A-Z]*$
+2929701,Sátiro Dias,17273,^[^A-Z]*SÁTIRO[^A-Z]+DIAS[^A-Z]*$
+2923050,Novo Triunfo,15440,^[^A-Z]*NOVO[^A-Z]+TRIUNFO[^A-Z]*$
+2923035,Novo Horizonte,12385,^[^A-Z]*NOVO[^A-Z]+HORIZONTE[^A-Z]*$
+2912608,Ibiquera,4044,^[^A-Z]*IBIQUERA[^A-Z]*$
+2928208,Santana,26614,^[^A-Z]*SANTANA[^A-Z]*$
+2930303,Serra Dourada,17386,^[^A-Z]*SERRA[^A-Z]+DOURADA[^A-Z]*$
+2931004,Tanhaçu,20403,^[^A-Z]*TANHACU[^A-Z]*$
+2931004,Tanhaçu,20403,^[^A-Z]*TANHAÇU[^A-Z]*$
+2929800,Saúde,12913,^[^A-Z]*SAUDE[^A-Z]*$
+2929800,Saúde,12913,^[^A-Z]*SAÚDE[^A-Z]*$
+2907608,Central,17266,^[^A-Z]*CENTRAL[^A-Z]*$
+2921054,Matina,12201,^[^A-Z]*MATINA[^A-Z]*$
+2904050,Bonito,16764,^[^A-Z]*BONITO[^A-Z]*$
+2931053,Tanque Novo,17366,^[^A-Z]*TANQUE[^A-Z]+NOVO[^A-Z]*$
+2911253,Gavião,4463,^[^A-Z]*GAVIÃO[^A-Z]*$
+2911253,Gavião,4463,^[^A-Z]*GAVIAO[^A-Z]*$
+2931053,Tanque Novo,17366,^[^A-Z]*TANQUE[^A-Z]+NOVO[^A-Z]*$
+2900504,Érico Cardoso,10610,^[^A-Z]*ERICO[^A-Z]+CARDOSO[^A-Z]*$
+2900504,Érico Cardoso,10610,^[^A-Z]*ÉRICO[^A-Z]+CARDOSO[^A-Z]*$
+2903508,Belo Campo,17211,^[^A-Z]*BELO[^A-Z]+CAMPO[^A-Z]*$
+2903235,Barro Alto,14931,^[^A-Z]*BARRO[^A-Z]+ALTO[^A-Z]*$
+2930006,Sebastião Laranjeiras,11434,^[^A-Z]*SEBASTIAO[^A-Z]+LARANJEIRAS[^A-Z]*$
+2930006,Sebastião Laranjeiras,11434,^[^A-Z]*SEBASTIÃO[^A-Z]+LARANJEIRAS[^A-Z]*$
+2907905,Cipó,17300,^[^A-Z]*CIPO[^A-Z]*$
+2907905,Cipó,17300,^[^A-Z]*CIPÓ[^A-Z]*$
+2923100,Olindina,28229,^[^A-Z]*OLINDINA[^A-Z]*$
+2926509,Ribeira do Amparo,14592,^[^A-Z]*RIBEIRA[^A-Z]+DO[^A-Z]+AMPARO[^A-Z]*$
+2913705,Inhambupe,39926,^[^A-Z]*INHAMBUPE[^A-Z]*$
+2910750,Fátima,17890,^[^A-Z]*FATIMA[^A-Z]*$
+2910750,Fátima,17890,^[^A-Z]*FÁTIMA[^A-Z]*$
+2909208,Coronel João Sá,15895,^[^A-Z]*CORONEL[^A-Z]+JOAO[^A-Z]+SA[^A-Z]*$
+2909208,Coronel João Sá,15895,^[^A-Z]*CORONEL[^A-Z]+JOÃO[^A-Z]+SÁ[^A-Z]*$
+2909604,Crisópolis,21103,^[^A-Z]*CRISOPOLIS[^A-Z]*$
+2909604,Crisópolis,21103,^[^A-Z]*CRISÓPOLIS[^A-Z]*$
+2923308,Ouriçangas,8564,^[^A-Z]*OURICANGAS[^A-Z]*$
+2923308,Ouriçangas,8564,^[^A-Z]*OURIÇANGAS[^A-Z]*$
+2915908,Itanagra,6441,^[^A-Z]*ITANAGRA[^A-Z]*$
+2911857,Heliópolis,13031,^[^A-Z]*HELIOPOLIS[^A-Z]*$
+2911857,Heliópolis,13031,^[^A-Z]*HELIÓPOLIS[^A-Z]*$
+2907004,Cardeal da Silva,9295,^[^A-Z]*CARDEAL[^A-Z]+DA[^A-Z]+SILVA[^A-Z]*$
+2902054,Araças,12177,^[^A-Z]*ARACAS[^A-Z]*$
+2902054,Araças,12177,^[^A-Z]*ARAÇÁS[^A-Z]*$
+2901601,Antas,19291,^[^A-Z]*ANTAS[^A-Z]*$
+2924108,Pedrão,7347,^[^A-Z]*PEDRAO[^A-Z]*$
+2924108,Pedrão,7347,^[^A-Z]*PEDRÃO[^A-Z]*$
+2918407,Juazeiro,216707,^[^A-Z]*JUAZEIRO[^A-Z]*$
+2924009,Paulo Afonso,117782,^[^A-Z]*PAULO[^A-Z]+AFONSO[^A-Z]*$
+2930774,Sobradinho,23191,^[^A-Z]*SOBRADINHO[^A-Z]*$
+2930105,Senhor do Bonfim,79015,^[^A-Z]*SENHOR[^A-Z]+DO[^A-Z]+BONFIM[^A-Z]*$
+2907202,Casa Nova,71969,^[^A-Z]*CASA[^A-Z]+NOVA[^A-Z]*$
+2906006,Campo Formoso,71206,^[^A-Z]*CAMPO[^A-Z]+FORMOSO[^A-Z]*$
+2910859,Filadélfia,16377,^[^A-Z]*FILADELFIA[^A-Z]*$
+2910859,Filadélfia,16377,^[^A-Z]*FILADÉLFIA[^A-Z]*$
+2909901,Curaçá,34700,^[^A-Z]*CURACA[^A-Z]*$
+2909901,Curaçá,34700,^[^A-Z]*CURAÇÁ[^A-Z]*$
+2917706,Jaguarari,33570,^[^A-Z]*JAGUARARI[^A-Z]*$
+2924405,Pilão Arcado,35048,^[^A-Z]*PILAO[^A-Z]+ARCADO[^A-Z]*$
+2924405,Pilão Arcado,35048,^[^A-Z]*PILÃO[^A-Z]+ARCADO[^A-Z]*$
+2905909,Campo Alegre de Lourdes,28798,^[^A-Z]*CAMPO[^A-Z]+ALEGRE[^A-Z]+DE[^A-Z]+LOURDES[^A-Z]*$
+2926004,Remanso,41008,^[^A-Z]*REMANSO[^A-Z]*$
+2930204,Sento Sé,40684,^[^A-Z]*SENTO[^A-Z]+SE[^A-Z]*$
+2930204,Sento Sé,40684,^[^A-Z]*SENTO[^A-Z]+SÉ[^A-Z]*$
+2932002,Uauá,24240,^[^A-Z]*UAUA[^A-Z]*$
+2932002,Uauá,24240,^[^A-Z]*UAUÁ[^A-Z]*$
+2924603,Pindobaçu,20150,^[^A-Z]*PINDOBACU[^A-Z]*$
+2924603,Pindobaçu,20150,^[^A-Z]*PINDOBAÇU[^A-Z]*$
+2925253,Ponto Novo,14914,^[^A-Z]*PONTO[^A-Z]+NOVO[^A-Z]*$
+2911402,Glória,15221,^[^A-Z]*GLORIA[^A-Z]*$
+2911402,Glória,15221,^[^A-Z]*GLÓRIA[^A-Z]*$
+2919900,Macururé,7824,^[^A-Z]*MACURURE[^A-Z]*$
+2919900,Macururé,7824,^[^A-Z]*MACURURÉ[^A-Z]*$
+2906824,Canudos,16668,^[^A-Z]*CANUDOS[^A-Z]*$
+2901809,Antônio Gonçalves,11798,^[^A-Z]*ANTONIO[^A-Z]+GONCALVES[^A-Z]*$
+2901809,Antônio Gonçalves,11798,^[^A-Z]*ANTÔNIO[^A-Z]+GONÇALVES[^A-Z]*$
+2927606,Santa Brígida,14213,^[^A-Z]*SANTA[^A-Z]+BRIGIDA[^A-Z]*$
+2927606,Santa Brígida,14213,^[^A-Z]*SANTA[^A-Z]+BRÍGIDA[^A-Z]*$
+2918100,Jeremoabo,40463,^[^A-Z]*JEREMOABO[^A-Z]*$
+2927101,Rodelas,9331,^[^A-Z]*RODELAS[^A-Z]*$
+2917003,Itiúba,36089,^[^A-Z]*ITIUBA[^A-Z]*$
+2917003,Itiúba,36089,^[^A-Z]*ITIÚBA[^A-Z]*$
+2901353,Andorinha,14595,^[^A-Z]*ANDORINHA[^A-Z]*$
+2924207,Pedro Alexandre,16667,^[^A-Z]*PEDRO[^A-Z]+ALEXANDRE[^A-Z]*$
+2900207,Abaré,20086,^[^A-Z]*ABARE[^A-Z]*$
+2900207,Abaré,20086,^[^A-Z]*ABARÉ[^A-Z]*$
+2907707,Chorrochó,11177,^[^A-Z]*CHORROCHO[^A-Z]*$
+2907707,Chorrochó,11177,^[^A-Z]*CHORROCHÓ[^A-Z]*$
+2903201,Barreiras,155439,^[^A-Z]*BARREIRAS[^A-Z]*$
+2919553,Luís Eduardo Magalhães,87519,^[^A-Z]*LUIS[^A-Z]+EDUARDO[^A-Z]+MAGALHAES[^A-Z]*$
+2919553,Luís Eduardo Magalhães,87519,^[^A-Z]*LUÍS[^A-Z]+EDUARDO[^A-Z]+MAGALHÃES[^A-Z]*$
+2903904,Bom Jesus da Lapa,69148,^[^A-Z]*BOM[^A-Z]+JESUS[^A-Z]+DA[^A-Z]+LAPA[^A-Z]*$
+2928901,São Desidério,33742,^[^A-Z]*SAO[^A-Z]+DESIDERIO[^A-Z]*$
+2928901,São Desidério,33742,^[^A-Z]*SÃO[^A-Z]+DESIDÉRIO[^A-Z]*$
+2926202,Riachão das Neves,22339,^[^A-Z]*RIACHAO[^A-Z]+DAS[^A-Z]+NEVES[^A-Z]*$
+2926202,Riachão das Neves,22339,^[^A-Z]*RIACHÃO[^A-Z]+DAS[^A-Z]+NEVES[^A-Z]*$
+2923209,Oliveira dos Brejinhos,21825,^[^A-Z]*OLIVEIRA[^A-Z]+DOS[^A-Z]+BREJINHOS[^A-Z]*$
+2920452,Mansidão,13643,^[^A-Z]*MANSIDAO[^A-Z]*$
+2920452,Mansidão,13643,^[^A-Z]*MANSIDÃO[^A-Z]*$
+2904753,Buritirama,21174,^[^A-Z]*BURITIRAMA[^A-Z]*$
+2909703,Cristópolis,13910,^[^A-Z]*CRISTOPOLIS[^A-Z]*$
+2909703,Cristópolis,13910,^[^A-Z]*CRISTÓPOLIS[^A-Z]*$
+2913200,Ibotirama,26927,^[^A-Z]*IBOTIRAMA[^A-Z]*$
+2902708,Barra,53578,^[^A-Z]*BARRA[^A-Z]*$
+2922250,Muquém de São Francisco,11348,^[^A-Z]*MUQUEM[^A-Z]+D[EO][^A-Z]+SAO[^A-Z]+FRANCISCO[^A-Z]*$
+2922250,Muquém de São Francisco,11348,^[^A-Z]*MUQUÉM[^A-Z]+D[EO][^A-Z]+SÃO[^A-Z]+FRANCISCO[^A-Z]*$
+2911105,Formosa do Rio Preto,25591,^[^A-Z]*FORMOSA[^A-Z]+DO[^A-Z]+RIO[^A-Z]+PRETO[^A-Z]*$
+2928406,Santa Rita de Cássia,28338,^[^A-Z]*SANTA[^A-Z]+RITA[^A-Z]+DE[^A-Z]+CASSIA[^A-Z]*$
+2928406,Santa Rita de Cássia,28338,^[^A-Z]*SANTA[^A-Z]+RITA[^A-Z]+DE[^A-Z]+CÁSSIA[^A-Z]*$
+2921609,Morpará,8519,^[^A-Z]*MORPARA[^A-Z]*$
+2921609,Morpará,8519,^[^A-Z]*MORPARÁ[^A-Z]*$
+2923704,Paratinga,32000,^[^A-Z]*PARATINGA[^A-Z]*$
+2930154,Serra do Ramalho,31472,^[^A-Z]*SERRA[^A-Z]+DO[^A-Z]+RAMALHO[^A-Z]*$
+2908101,Cocos,18777,^[^A-Z]*COCOS[^A-Z]*$
+2909307,Correntina,32137,^[^A-Z]*CORRENTINA[^A-Z]*$
+2930907,Tabocas do Brejo Velho,12518,^[^A-Z]*TABOCAS[^A-Z]+DO[^A-Z]+BREJO[^A-Z]+VELHO[^A-Z]*$
+2910776,Feira da Mata,5665,^[^A-Z]*FEIRA[^A-Z]+DA[^A-Z]+MATA[^A-Z]*$
+2902500,Baianópolis,13877,^[^A-Z]*BAIANOPOLIS[^A-Z]*$
+2902500,Baianópolis,13877,^[^A-Z]*BAIANÓPOLIS[^A-Z]*$
+2909109,Coribe,14194,^[^A-Z]*CORIBE[^A-Z]*$
+2929057,São Félix do Coribe,15391,^[^A-Z]*SAO[^A-Z]+FELIX[^A-Z]+DO[^A-Z]+CORIBE[^A-Z]*$
+2929057,São Félix do Coribe,15391,^[^A-Z]*SÃO[^A-Z]+FÉLIX[^A-Z]+DO[^A-Z]+CORIBE[^A-Z]*$
+2901403,Angical,13977,^[^A-Z]*ANGICAL[^A-Z]*$
+2933455,Wanderley,12238,^[^A-Z]*WANDERLEY[^A-Z]*$
+2917359,Jaborandi,8385,^[^A-Z]*JABORANDI[^A-Z]*$
+2928109,Santa Maria da Vitória,39845,^[^A-Z]*SANTA[^A-Z]+MARIA[^A-Z]+DA[^A-Z]+VITORIA[^A-Z]*$
+2928109,Santa Maria da Vitória,39845,^[^A-Z]*SANTA[^A-Z]+MARIA[^A-Z]+DA[^A-Z]+VITÓRIA[^A-Z]*$
+2907400,Catolândia,3577,^[^A-Z]*CATOLANDIA[^A-Z]*$
+2907400,Catolândia,3577,^[^A-Z]*CATOLÂNDIA[^A-Z]*$
+2909406,Cotegipe,13782,^[^A-Z]*COTEGIPE[^A-Z]*$
+2904506,Brotas de Macaúbas,10231,^[^A-Z]*BROTAS[^A-Z]+DE[^A-Z]+MACAUBAS[^A-Z]*$
+2904506,Brotas de Macaúbas,10231,^[^A-Z]*BROTAS[^A-Z]+DE[^A-Z]+MACAÚBAS[^A-Z]*$
+2933307,Vitória da Conquista,338480,^[^A-Z]*VITORIA[^A-Z]+DA[^A-Z]+CONQUISTA[^A-Z]*$
+2933307,Vitória da Conquista,338480,^[^A-Z]*VITÓRIA[^A-Z]+DA[^A-Z]+CONQUISTA[^A-Z]*$
+2913507,Iguaí,26916,^[^A-Z]*IGUAI[^A-Z]*$
+2913507,Iguaí,26916,^[^A-Z]*IGUAÍ[^A-Z]*$
+2925105,Poções,46871,^[^A-Z]*POCOES[^A-Z]*$
+2925105,Poções,46871,^[^A-Z]*POÇÕES[^A-Z]*$
+2904605,Brumado,67195,^[^A-Z]*BRUMADO[^A-Z]*$
+2916401,Itapetinga,76147,^[^A-Z]*ITAPETINGA[^A-Z]*$
+2932606,Urandi,16658,^[^A-Z]*URANDI[^A-Z]*$
+2906709,Cândido Sales,25189,^[^A-Z]*CANDIDO[^A-Z]+SALES[^A-Z]*$
+2906709,Cândido Sales,25189,^[^A-Z]*CÂNDIDO[^A-Z]+SALES[^A-Z]*$
+2911709,Guanambi,84481,^[^A-Z]*GUANAMBI[^A-Z]*$
+2910404,Encruzilhada,17006,^[^A-Z]*ENCRUZILHAD[^A-Z]*A[^A-Z]*$
+2904803,Caatiba,6758,^[^A-Z]*CAATIBA[^A-Z]*$
+2905206,Caetité,50975,^[^A-Z]*CAETITE[^A-Z]*$
+2905206,Caetité,50975,^[^A-Z]*CAETITÉ[^A-Z]*$
+2924702,Piripá,10707,^[^A-Z]*PIRIPA[^A-Z]*$
+2924702,Piripá,10707,^[^A-Z]*PIRIPÁ[^A-Z]*$
+2925006,Planalto,26265,^[^A-Z]*PLANALTO[^A-Z]*$
+2902906,Barra do Choça,31603,^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+CHOCA[^A-Z]*$
+2902906,Barra do Choça,31603,^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+CHOÇA[^A-Z]*$
+2925402,Potiraguá,7224,^[^A-Z]*POTIRAGUA[^A-Z]*$
+2925402,Potiraguá,7224,^[^A-Z]*POTIRAGUÁ[^A-Z]*$
+2912301,Ibicuí,16198,^[^A-Z]*IBICUI[^A-Z]*$
+2912301,Ibicuí,16198,^[^A-Z]*IBICUÍ[^A-Z]*$
+2916807,Itarantim,19747,^[^A-Z]*ITARANTIM[^A-Z]*$
+2917102,Itororó,20382,^[^A-Z]*ITORORO[^A-Z]*$
+2917102,Itororó,20382,^[^A-Z]*ITORORÓ[^A-Z]*$
+2908705,Condeúba,17247,^[^A-Z]*CONDEUBA[^A-Z]*$
+2908705,Condeúba,17247,^[^A-Z]*CONDEÚBA[^A-Z]*$
+2926400,Riacho de Santana,35421,^[^A-Z]*RIACHO[^A-Z]+DE[^A-Z]+SANTANA[^A-Z]*$
+2919702,Macarani,18755,^[^A-Z]*MACARANI[^A-Z]*$
+2922706,Nova Canaã,16462,^[^A-Z]*NOVA[^A-Z]+CANAA[^A-Z]*$
+2922706,Nova Canaã,16462,^[^A-Z]*NOVA[^A-Z]+CANAÃ[^A-Z]*$
+2923407,Palmas de Monte Alto,21750,^[^A-Z]*PALMAS[^A-Z]+DE[^A-Z]+MONTE[^A-Z]+ALTO[^A-Z]*$
+2924504,Pindaí,16260,^[^A-Z]*PINDAI[^A-Z]*$
+2924504,Pindaí,16260,^[^A-Z]*PINDAÍ[^A-Z]*$
+2920007,Maiquinique,10112,^[^A-Z]*MAIQUINIQUE[^A-Z]*$
+2919504,Livramento de Nossa Senhora,45732,^[^A-Z]*LIVRAMENTO[^A-Z]+DE[^A-Z]+NOSSA[^A-Z]+SENHORA[^A-Z]*$
+2902005,Aracatu,13135,^[^A-Z]*ARACATU[^A-Z]*$
+2904100,Boquira,21508,^[^A-Z]*BOQUIRA[^A-Z]*$
+2903953,Bom Jesus da Serra,9880,^[^A-Z]*BOM[^A-Z]+JESUS[^A-Z]+DA[^A-Z]+SERRA[^A-Z]*$
+2915809,Itambé,23049,^[^A-Z]*ITAMBE[^A-Z]*$
+2915809,Itambé,23049,^[^A-Z]*ITAMBÉ[^A-Z]*$
+2906600,Candiba,14319,^[^A-Z]*CANDIBA[^A-Z]*$
+2919405,Licínio de Almeida,12388,^[^A-Z]*LICINIO[^A-Z]+DE[^A-Z]+ALMEIDA[^A-Z]*$
+2919405,Licínio de Almeida,12388,^[^A-Z]*LICÍNIO[^A-Z]+DE[^A-Z]+ALMEIDA[^A-Z]*$
+2901205,Anagé,22005,^[^A-Z]*ANAGE[^A-Z]*$
+2901205,Anagé,22005,^[^A-Z]*ANAGÉ[^A-Z]*$
+2921807,Mortugaba,12042,^[^A-Z]*MORTUGABA[^A-Z]*$
+2912509,Ibipitanga,14902,^[^A-Z]*IBIPITANGA[^A-Z]*$
+2921450,Mirante,8641,^[^A-Z]*MIRANTE[^A-Z]*$
+2923605,Paramirim,21607,^[^A-Z]*PARAMIRIM[^A-Z]*$
+2926905,Rio do Pires,11655,^[^A-Z]*RIO[^A-Z]+DO[^A-Z]+PIRES[^A-Z]*$
+2906899,Caraíbas,8951,^[^A-Z]*CARAIBAS[^A-Z]*$
+2906899,Caraíbas,8951,^[^A-Z]*CARAÍBAS[^A-Z]*$
+2910107,Dom Basílio,12199,^[^A-Z]*DOM[^A-Z]+BASILIO[^A-Z]*$
+2910107,Dom Basílio,12199,^[^A-Z]*DOM[^A-Z]+BASÍLIO[^A-Z]*$
+2926657,Ribeirão do Largo,5812,^[^A-Z]*RIBEIRAO[^A-Z]+DO[^A-Z]+LARGO[^A-Z]*$
+2926657,Ribeirão do Largo,5812,^[^A-Z]*RIBEIRÃO[^A-Z]+DO[^A-Z]+LARGO[^A-Z]*$
+2926806,Rio do Antônio,15371,^[^A-Z]*RIO[^A-Z]+DO[^A-Z]+ANTONIO[^A-Z]*$
+2926806,Rio do Antônio,15371,^[^A-Z]*RIO[^A-Z]+DO[^A-Z]+ANTÔNIO[^A-Z]*$
+2919801,Macaúbas,49826,^[^A-Z]*MACAUBAS[^A-Z]*$
+2919801,Macaúbas,49826,^[^A-Z]*MACAÚBAS[^A-Z]*$
+2910909,Firmino Alves,5617,^[^A-Z]*FIRMINO[^A-Z]+ALVES[^A-Z]*$
+2931806,Tremedal,16394,^[^A-Z]*TREMEDAL[^A-Z]*$
+2920205,Malhada,16845,^[^A-Z]*MALHADA[^A-Z]*$
+2920304,Malhada de Pedras,8393,^[^A-Z]*MALHADA[^A-Z]+DE[^A-Z]+PEDRAS[^A-Z]*$
+2925709,Presidente Jânio Quadros,12338,^[^A-Z]*PRESIDENTE[^A-Z]+JANIO[^A-Z]+QUADROS[^A-Z]*$
+2925709,Presidente Jânio Quadros,12338,^[^A-Z]*PRESIDENTE[^A-Z]+JÂNIO[^A-Z]+QUADROS[^A-Z]*$
+2902807,Barra da Estiva,20598,^[^A-Z]*BARRA[^A-Z]+DA[^A-Z]+ESTIVA[^A-Z]*$
+2905008,Caculé,23170,^[^A-Z]*CACULE[^A-Z]*$
+2905008,Caculé,23170,^[^A-Z]*CACULÉ[^A-Z]*$
+2905156,Caetanos,14542,^[^A-Z]*CAETANOS[^A-Z]*$
+2907103,Carinhanha,29018,^[^A-Z]*CARINHANHA[^A-Z]*$
+2911659,Guajeru,6937,^[^A-Z]*GUAJERU[^A-Z]*$
+2918605,Jussiape,6186,^[^A-Z]*JUSSIAPE[^A-Z]*$
+2913408,Igaporã,15640,^[^A-Z]*IGAPORA[^A-Z]*$
+2913408,Igaporã,15640,^[^A-Z]*IGAPORÃ[^A-Z]*$
+2909000,Cordeiros,8614,^[^A-Z]*CORDEIROS[^A-Z]*$
+2912004,Ibiassucê,9224,^[^A-Z]*IBIASSUCE[^A-Z]*$
+2912004,Ibiassucê,9224,^[^A-Z]*IBIASSUCÊ[^A-Z]*$
+2912202,Ibicoara,19571,^[^A-Z]*IBICOARA[^A-Z]*$
+2919959,Maetinga,3161,^[^A-Z]*MAETINGA[^A-Z]*$
+2917201,Ituaçu,18962,^[^A-Z]*ITUACU[^A-Z]*$
+2917201,Ituaçu,18962,^[^A-Z]*ITUAÇU[^A-Z]*$
+2917334,Iuiú,10994,^[^A-Z]*IUIU[^A-Z]*$
+2917334,Iuiú,10994,^[^A-Z]*IUIÚ[^A-Z]*$
+2902203,Aramari,11397,^[^A-Z]*ARAMARI[^A-Z]*$
+2917409,Jacaraci,14842,^[^A-Z]*JACARACI[^A-Z]*$
+2904209,Botuporã,10211,^[^A-Z]*BOTUPORA[^A-Z]*$
+2904209,Botuporã,10211,^[^A-Z]*BOTUPORÃ[^A-Z]*$
+2914802,Itabuna,213223,^[^A-Z]*ITABUNA[^A-Z]*$
+2913606,Ilhéus,162327,^[^A-Z]*ILHEUS[^A-Z]*$
+2913606,Ilhéus,162327,^[^A-Z]*ILHÉUS[^A-Z]*$
+2918001,Jequié,155966,^[^A-Z]*JEQUIE[^A-Z]*$
+2918001,Jequié,155966,^[^A-Z]*JEQUIÉ[^A-Z]*$
+2913903,Ipiaú,45873,^[^A-Z]*IPIAU[^A-Z]*$
+2913903,Ipiaú,45873,^[^A-Z]*IPIAÚ[^A-Z]*$
+2911204,Gandu,32403,^[^A-Z]*GANDU[^A-Z]*$
+2932903,Valença,96562,^[^A-Z]*VALENCA[^A-Z]*$
+2932903,Valença,96562,^[^A-Z]*VALENÇA[^A-Z]*$
+2919306,Lençóis,11409,^[^A-Z]*LENÇÓIS[^A-Z]*$
+2919306,Lençóis,11409,^[^A-Z]*LENCOIS[^A-Z]*$
+2915502,Itajuípe,20491,^[^A-Z]*ITAJUIPE[^A-Z]*$
+2915502,Itajuípe,20491,^[^A-Z]*ITAJUÍPE[^A-Z]*$
+2905602,Camacan,31988,^[^A-Z]*CAMACAN[^A-Z]*$
+2932705,Uruçuca,20519,^[^A-Z]*URUCUCA[^A-Z]*$
+2932705,Uruçuca,20519,^[^A-Z]*URUÇUCA[^A-Z]*$
+2917607,Jaguaquara,54423,^[^A-Z]*JAGUAQUARA[^A-Z]*$
+2933505,Wenceslau Guimarães,21101,^[^A-Z]*WENCESLAU[^A-Z]+GUIMARAES[^A-Z]*$
+2933505,Wenceslau Guimarães,21101,^[^A-Z]*WENCESLAU[^A-Z]+GUIMARÃES[^A-Z]*$
+2912103,Ibicaraí,21689,^[^A-Z]*IBICARAI[^A-Z]*$
+2912103,Ibicaraí,21689,^[^A-Z]*IBICARAÍ[^A-Z]*$
+2917300,Ituberá,28602,^[^A-Z]*ITUBERA[^A-Z]*$
+2917300,Ituberá,28602,^[^A-Z]*ITUBERÁ[^A-Z]*$
+2914901,Itacaré,28296,^[^A-Z]*ITACARE[^A-Z]*$
+2914901,Itacaré,28296,^[^A-Z]*ITACARÉ[^A-Z]*$
+2904704,Buerarema,18349,^[^A-Z]*BUERAREMA[^A-Z]*$
+2932200,Ubaitaba,19056,^[^A-Z]*UBAITABA[^A-Z]*$
+2932309,Ubatã,27035,^[^A-Z]*UBATA[^A-Z]*$
+2932309,Ubatã,27035,^[^A-Z]*UBATÃ[^A-Z]*$
+2902401,Aurelino Leal,11531,^[^A-Z]*AURELINO[^A-Z]+LEAL[^A-Z]*$
+2905800,Camamu,35316,^[^A-Z]*CAMAMU[^A-Z]*$
+2912707,Ibirapitanga,23375,^[^A-Z]*IBIRAPITANGA[^A-Z]*$
+2908002,Coaraci,16993,^[^A-Z]*COARACI[^A-Z]*$
+2915205,Itagibá,14579,^[^A-Z]*ITAGIBA[^A-Z]*$
+2915205,Itagibá,14579,^[^A-Z]*ITAGIBÁ[^A-Z]*$
+2929354,São José da Vitória,5657,^[^A-Z]*SAO[^A-Z]+JOSE[^A-Z]+DA[^A-Z]+VITORIA[^A-Z]*$
+2929354,São José da Vitória,5657,^[^A-Z]*SÃO[^A-Z]+JOSÉ[^A-Z]+DA[^A-Z]+VITÓRIA[^A-Z]*$
+2901957,Apuarema,7330,^[^A-Z]*APUAREMA[^A-Z]*$
+2912905,Ibirataia,15312,^[^A-Z]*IBIRATAIA[^A-Z]*$
+2911006,Floresta Azul,10629,^[^A-Z]*FLORESTA[^A-Z]+AZUL[^A-Z]*$
+2931608,Teolândia,14943,^[^A-Z]*TEOLANDIA[^A-Z]*$
+2931608,Teolândia,14943,^[^A-Z]*TEOLÂNDIA[^A-Z]*$
+2905404,Cairu,18176,^[^A-Z]*CAIRU[^A-Z]*$
+2913457,Igrapiúna,13226,^[^A-Z]*IGRAPIUNA[^A-Z]*$
+2913457,Igrapiúna,13226,^[^A-Z]*IGRAPIÚNA[^A-Z]*$
+2931202,Taperoá,21074,^[^A-Z]*TAPEROA[^A-Z]*$
+2931202,Taperoá,21074,^[^A-Z]*TAPEROÁ[^A-Z]*$
+2924678,Piraí do Norte,10023,^[^A-Z]*PIRAI[^A-Z]+DO[^A-Z]+NORTE[^A-Z]*$
+2924678,Piraí do Norte,10023,^[^A-Z]*PIRAÍ[^A-Z]+DO[^A-Z]+NORTE[^A-Z]*$
+2920403,Manoel Vitorino,13240,^[^A-Z]*MANOEL[^A-Z]+VITORINO[^A-Z]*$
+2922755,Nova Ibiá,6591,^[^A-Z]*NOVA[^A-Z]+IBIA[^A-Z]*$
+2922755,Nova Ibiá,6591,^[^A-Z]*NOVA[^A-Z]+IBIÁ[^A-Z]*$
+2920700,Maraú,20570,^[^A-Z]*MARAU[^A-Z]*$
+2920700,Maraú,20570,^[^A-Z]*MARAÚ[^A-Z]*$
+2906303,Canavieiras,31099,^[^A-Z]*CANAVIEIRAS[^A-Z]*$
+2916203,Itapé,8761,^[^A-Z]*ITAPE[^A-Z]*$
+2916203,Itapé,8761,^[^A-Z]*ITAPÉ[^A-Z]*$
+2918308,Jitaúna,11166,^[^A-Z]*JITAUNA[^A-Z]*$
+2918308,Jitaúna,11166,^[^A-Z]*JITAÚNA[^A-Z]*$
+2932507,Una,19002,^[^A-Z]*UNA[^A-Z]*$
+2920502,Maracás,20834,^[^A-Z]*MARACAS[^A-Z]*$
+2920502,Maracás,20834,^[^A-Z]*MARACÁS[^A-Z]*$
+2903300,Barro Preto,5591,^[^A-Z]*BARRO[^A-Z]+PRETO[^A-Z]*$
+2923902,Pau Brasil,9831,^[^A-Z]*PAU[^A-Z]+BRASIL[^A-Z]*$
+2922607,Nilo Peçanha,13997,^[^A-Z]*NILO[^A-Z]+PECANHA[^A-Z]*$
+2922607,Nilo Peçanha,13997,^[^A-Z]*NILO[^A-Z]+PEÇANHA[^A-Z]*$
+2928059,Santa Luzia,12597,^[^A-Z]*SANTA[^A-Z]+LUZIA[^A-Z]*$
+2910008,Dário Meira,10710,^[^A-Z]*DARIO[^A-Z]+MEIRA[^A-Z]*$
+2910008,Dário Meira,10710,^[^A-Z]*DÁRIO[^A-Z]+MEIRA[^A-Z]*$
+2900900,Almadina,5464,^[^A-Z]*ALMADINA[^A-Z]*$
+2911501,Gongogi,7128,^[^A-Z]*GONGOGI[^A-Z]*$
+2915403,Itaju do Colônia,6682,^[^A-Z]*ITAJU[^A-Z]+DO[^A-Z]+COLONIA[^A-Z]*$
+2915403,Itaju do Colônia,6682,^[^A-Z]*ITAJU[^A-Z]+DO[^A-Z]+COLÔNIA[^A-Z]*$
+2916609,Itapitanga,10313,^[^A-Z]*ITAPITANGA[^A-Z]*$
+2919058,Lajedo do Tabocal,8562,^[^A-Z]*LAJEDO[^A-Z]+DO[^A-Z]+TABOCAL[^A-Z]*$
+2920908,Mascote,13822,^[^A-Z]*MASCOTE[^A-Z]*$
+2927804,Santa Cruz da Vitória,6315,^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+DA[^A-Z]+VITORIA[^A-Z]*$
+2927804,Santa Cruz da Vitória,6315,^[^A-Z]*SANTA[^A-Z]+CRUZ[^A-Z]+DA[^A-Z]+VITÓRIA[^A-Z]*$
+2904308,Brejões,14295,^[^A-Z]*BREJOES[^A-Z]*$
+2904308,Brejões,14295,^[^A-Z]*BREJÕES[^A-Z]*$
+2915106,Itagi,12351,^[^A-Z]*ITAGI[^A-Z]*$
+2900603,Aiquara,4446,^[^A-Z]*AIQUARA[^A-Z]*$
+2927903,Santa Inês,10631,^[^A-Z]*SANTA[^A-Z]+INES[^A-Z]*$
+2927903,Santa Inês,10631,^[^A-Z]*SANTA[^A-Z]+INÊS[^A-Z]*$
+2918555,Jussari,5833,^[^A-Z]*JUSSARI[^A-Z]*$
+2918704,Lafaiete Coutinho,3724,^[^A-Z]*LAFAIETE[^A-Z]+COUTINHO[^A-Z]*$
+2903102,Barra do Rocha,5714,^[^A-Z]*BARRA[^A-Z]+DO[^A-Z]+ROCHA[^A-Z]*$
+2909505,Cravolândia,5349,^[^A-Z]*CRAVOLANDIA[^A-Z]*$
+2909505,Cravolândia,5349,^[^A-Z]*CRAVOLÂNDIA[^A-Z]*$
+2916708,Itaquara,8319,^[^A-Z]*ITAQUARA[^A-Z]*$
+2916906,Itiruçu,12576,^[^A-Z]*ITIRUCU[^A-Z]*$
+2916906,Itiruçu,12576,^[^A-Z]*ITIRUÇU[^A-Z]*$
+2915700,Itamari,8035,^[^A-Z]*ITAMARI[^A-Z]*$
+2902252,Arataca,11019,^[^A-Z]*ARATACA[^A-Z]*$
+2914307,Iramaia,8537,^[^A-Z]*IRAMAIA[^A-Z]*$
+2903706,Boa Nova,12633,^[^A-Z]*BOA[^A-Z]+NOVA[^A-Z]*$
+2904407,Brejolândia,10557,^[^A-Z]*BREJOLÂNDIA[^A-Z]*$
+2904407,Brejolândia,10557,^[^A-Z]*BREJOLANDIA[^A-Z]*$
+,Canápolis,,^[^A-Z]*CANÁPOLIS[^A-Z]*$
+,Canápolis,,^[^A-Z]*CANAPOLIS[^A-Z]*$
+2907558,Caturama,9329,^[^A-Z]*CATURAMA[^A-Z]*$
+2908804,Contendas do Sincorá,4066,^[^A-Z]*CONTENDAS[^A-Z]+DO[^A-Z]+SINCORÁ[^A-Z]*$
+2908804,Contendas do Sincorá,4066,^[^A-Z]*CONTENDAS[^A-Z]+DO[^A-Z]+SINCORA[^A-Z]*$
+2910057,Dias d'Ávila,81089,^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*ÁVILA[^A-Z]*$
+2910057,Dias d'Ávila,81089,^[^A-Z]*DIAS[^A-Z]+D[^A-Z]*AVILA[^A-Z]*$
+2933109,Várzea do Poço,9170,^[^A-Z]*VÁRZEA[^A-Z]+DO[^A-Z]+POÇO[^A-Z]*$
+2933109,Várzea do Poço,9170,^[^A-Z]*VARZEA[^A-Z]+DO[^A-Z]+POCO[^A-Z]*$
+2930758,Sítio do Mato,13012,^[^A-Z]*SÍTIO[^A-Z]+DO[^A-Z]+MATO[^A-Z]*$
+2930758,Sítio do Mato,13012,^[^A-Z]*SITIO[^A-Z]+DO[^A-Z]+MATO[^A-Z]*$
+2926707,Rio de Contas,12989,^[^A-Z]*RIO[^A-Z]+DE[^A-Z]+CONTAS[^A-Z]*$
+2924900,Planaltino,9322,^[^A-Z]*PLANALTINO[^A-Z]*$
+2919009,Lajedinho,3783,^[^A-Z]*LAJEDINHO[^A-Z]*$
+2918753,Lagoa Real,15665,^[^A-Z]*LAGOA[^A-Z]+REAL[^A-Z]*$
+2914208,Irajuba,7260,^[^A-Z]*IRAJUBA[^A-Z]*$
+2914109,Ipupiara,9865,^[^A-Z]*IPUPIARA[^A-Z]*$
+2913101,Ibititá,17113,^[^A-Z]*IBITITÁ[^A-Z]*$
+2913101,Ibititá,17113,^[^A-Z]*IBITITA[^A-Z]*$
