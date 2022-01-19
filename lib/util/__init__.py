@@ -14,9 +14,10 @@ base_path = 'cases-covid19-bahia.csv.zip'
 path_to_write_charts = "charts/"
 # Fonte do shapefile: https://mapas.ibge.gov.br/bases-e-referenciais/bases-cartograficas/malhas-digitais
 path_to_shapefile = 'shapefile_municipios_baciadojacuipe'
+now = lambda: datetime.datetime.now()
 
-time_start = datetime.datetime.now()
-t_s = datetime.datetime.now()
+time_start = now()
+t_s = now()
 
 dic_cities = {
     '^[^A-Z]*BAIXA GRANDE[^A-Z]*$': 'Baixa Grande',
@@ -46,17 +47,17 @@ dic_cities = {
 
 def get_today(type=None):
 	# Data atual
-	return datetime.datetime.now().strftime("%d-%m-%Y") if type == str else datetime.datetime.now()
+	return now().strftime("%d-%m-%Y") if type == str else now()
 today = get_today(str)
 
 def start_timer():
-    t_s = datetime.datetime.now()
+    t_s = now()
     
 def print_timer():
-    print('Execution time:', datetime.datetime.now() - t_s)
+    print('Execution time:', now() - t_s)
 
 def execution_time():
-    print('Total execution time:', datetime.datetime.now() - time_start)
+    print('Total execution time:', now() - time_start)
 
 def create_mortality_rate(df, var_deaths='deaths', var_totalCases='totalCases'):
     tmp = df.copy()
