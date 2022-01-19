@@ -10,7 +10,7 @@ from matplotlib.dates import DateFormatter
 
 wcota_path = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-cities-time.csv.gz'
 pop_path = 'extract_data_from_sesab/cidades_bahia_covid19.csv'
-base_path = 'cases-covid19-bahia.csv'
+base_path = 'cases-covid19-bahia.csv.zip'
 path_to_write_charts = "charts/"
 # Fonte do shapefile: https://mapas.ibge.gov.br/bases-e-referenciais/bases-cartograficas/malhas-digitais
 path_to_shapefile = 'shapefile_municipios_baciadojacuipe'
