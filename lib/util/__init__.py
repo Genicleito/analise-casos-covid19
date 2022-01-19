@@ -91,7 +91,7 @@ def preprocessing(read_path=wcota_path, write_path=base_path, compression='infer
 	# display.display(df[['city']].assign(count=1).groupby('city').count().sort_values(by=['count'], ascending=False).reset_index().head(10))
 	df = create_recovered(df)
 	df = create_active(df)
-	df = df.drop('country', axis=1)
+	df = df.drop('country', axis=1, errors='ignore')
 	pop_cities = pd.read_csv(pop_path)
 	df = df.merge(pop_cities[['ibgeID', 'population']].drop_duplicates('ibgeID'), on='ibgeID', how='left')
 	if write_path:
